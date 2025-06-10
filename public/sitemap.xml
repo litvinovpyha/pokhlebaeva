@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+    <url>
+    <loc>http://192.168.0.5:8080</loc>
+            </url>
+    <url>
+    <loc>http://192.168.0.5:8080/online-training</loc>
+            </url>
+    <url>
+    <loc>http://192.168.0.5:8080/callback</loc>
+            </url>
+    <url>
+    <loc>http://192.168.0.5:8080/hair-stylist</loc>
+            </url>
+    <url>
+    <loc>http://192.168.0.5:8080/manicure</loc>
+            </url>
+    <url>
+    <loc>http://192.168.0.5:8080/lamination</loc>
+            </url>
+    <url>
+    <loc>http://192.168.0.5:8080/onlinemanicure</loc>
+            </url>
+</urlset>

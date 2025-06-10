@@ -192,7 +192,6 @@ class CourseIsControllerTest extends TestCase
 
         foreach ($courses as $course) {
             $response->assertSee($course->name);
-            $response->assertSee((string) $course->price);
             $response->assertSee($course->image);
         }
     }

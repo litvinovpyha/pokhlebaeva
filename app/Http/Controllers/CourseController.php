@@ -26,7 +26,7 @@ class CourseController extends Controller
             [
                 'name' => 'required|string|max:255',
                 'price' => 'required|integer|min:0',
-                'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:1024',
+                'image' => 'required|image|mimes:jpeg,png,jpg,gif|max:5120',
                 ]
             ,
             [
@@ -98,7 +98,7 @@ class CourseController extends Controller
         $course->save();
 
         // Перенаправляем с сообщением об успехе
-        return redirect()->route('courses.show', $course)->with('success', 'Курс успешно обновлён!');
+        return redirect()->route('courses.show', parameters: $course)->with('success', 'Курс успешно обновлён!');
 
     }
 

@@ -1,2 +1,9 @@
 User-agent: *
-Disallow:
+Disallow: /console/
+Disallow: /mycourses
+Disallow: /login
+Disallow: /register
+Disallow: /sanctum
+Allow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml
