@@ -21,3 +21,10 @@ Homestead.yaml
 Homestead.json
 /.vagrant
 .phpunit.result.cache
+
+# Couses specific
+insert_users_courses.sql
+
+# Windows specific
+serve.bat 
+migrate.bat

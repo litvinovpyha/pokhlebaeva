@@ -23,13 +23,23 @@
                             Скачать PDF
                         </a>
                         @break
-                    @case('youtube')
-                        <div class="aspect-w-16 aspect-h-9">
-                            <iframe class="w-full h-48 rounded-md"
-                                src="https://www.youtube.com/embed/{{ $content->content }}"
-                                title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                        @break
+                  @case('youtube')
+    @php
+        // Преобразуем ссылку watch?v=... в embed/...
+        $videoId = '';
+        if (preg_match('/v=([a-zA-Z0-9_-]+)/', $content->content, $matches)) {
+            $videoId = $matches[1];
+        }
+        $embedUrl = "https://www.youtube.com/embed/" . $videoId;
+    @endphp
+
+    <div class="aspect-w-16 aspect-h-9">
+        <iframe class="w-full h-48 rounded-md"
+            src="{{ $embedUrl }}"
+            title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+    @break
+
                 @endswitch
             @endforeach
         </div>

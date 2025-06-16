@@ -14,7 +14,7 @@
                 <p
                     class="mt-8 text-lg font-medium sm:text-2xl drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)] uppercase text-neutral-900">
                     КРЕПКИЙ ФУНДАМЕНТ ВАШИХ ЗНАНИЙ </br>
-                    СКИДКА до - (здесь будет находится count из dicsount если нет то = 30) % на обучение
+                    СКИДКА до - 40% на обучение
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <a href="{{ route('callback') }}"

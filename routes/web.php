@@ -16,6 +16,7 @@ use App\Http\Controllers\OnlineTrainingController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\IsAdmin;
 use Illuminate\Support\Facades\Route;
+use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 Route::get('/', [IndexController::class, 'index'])->name('home');
 Route::get('/online-training', [OnlineTrainingController::class, 'show'])->name('online');
@@ -35,7 +36,9 @@ Route::middleware([
     Route::get('/mycourses/{id}', [MyCoursesController::class, 'show'])->name('mycourses.show');
     Route::get('/mycourses/{id}/{lesson_id}', [MyLessonController::class, 'show'])->name('lesson.show');
 });
-
+Route::get('/log-in', function () {
+    return redirect()->route('login', [], 301);
+});
 Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
     Route::get('/', [ConsoleController::class, 'store'])->name('callback.store');
     Route::get('/', [ConsoleController::class, 'show'])->name('console');

@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /console/
 Disallow: /mycourses
-Disallow: /login
+Disallow: /log-in
 Disallow: /register
 Disallow: /sanctum
 Allow: /
