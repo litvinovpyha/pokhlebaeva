@@ -2,9 +2,7 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-/storage/logs
-/storage/framework/cache
-.env
+
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
