@@ -1,5 +1,5 @@
 <div class="bg-white shadow-lg rounded-lg p-6 text-center">
-    <img class="w-40 h-52 mx-auto mb-4 object-cover rounded-xl" src="{{ asset('images/team/veronika.jpg') }}" alt="">
+    <img class="w-40 h-52 mx-auto mb-4 object-cover rounded-xl" src="{{ asset('images/team/veronika.webp') }}" alt="">
     <h3 class="text-xl font-semibold text-gray-900">Вероника Похлебаева</h3>
     <p class="text-sm text-indigo-600 mb-2">Основатель и тренер школы-студии красоты INDIGO</p>
     <p class="text-gray-600 text-sm mb-4">✔️ Сертифицированный тренер с опытом более 11 лет в индустрии красоты</p>

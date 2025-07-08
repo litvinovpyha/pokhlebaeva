@@ -1,21 +1,18 @@
-import { defineConfig } from 'vite';
-import laravel from 'laravel-vite-plugin';
+import { defineConfig } from "vite";
+import laravel from "laravel-vite-plugin";
 
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
+            input: ["resources/css/app.css", "resources/js/app.js"],
             refresh: true,
         }),
-
     ],
     server: {
-        host: process.env.VITE_API_URL,
-        port: 5173,
-        strictPort: true,
+        host: "0.0.0.0",
+        port: 8000,
         hmr: {
-            host: process.env.VITE_API_URL,
+            host: "192.168.0.5",
         },
-        cors: true,
     },
 });

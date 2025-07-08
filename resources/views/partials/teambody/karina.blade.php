@@ -1,5 +1,5 @@
 <div class="bg-white shadow-lg rounded-lg p-6 text-center">
-    <img class="w-40 h-52 mx-auto mb-4 object-cover rounded-xl" src="{{ asset('images/team/karina.jpg') }}" alt="">
+    <img class="w-40 h-52 mx-auto mb-4 object-cover rounded-xl" src="{{ asset('images/team/karina.webp') }}" alt="">
     <h3 class="text-xl font-semibold text-gray-900">Карина Ургалиева</h3>
     <p class="text-sm text-indigo-600 mb-2">Тренер по парикмахерскому искусству и колористике</p>
     <p class="text-gray-600 text-sm mb-4">✂️ Опыт в индустрии красоты — более 22 лет</p>

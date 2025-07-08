@@ -1,59 +1,59 @@
-<p class="mb-2 text-gray-500 dark:text-gray-400">Геометрия стрижек. Фундаментальные</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">Три основные техники исполнения : слои,
+<p class="mb-2 text-gray-500 ">Геометрия стрижек. Фундаментальные</p>
+<p class="mb-2 text-gray-500 ">Три основные техники исполнения : слои,
     градуировка и линия</p>
-<p class="mb-2 text-blue-600 dark:text-blue-500">9 дизайнов стрижек</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">1. Линия в квадратной геометрии</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">2. Линия в круглой геометрии</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">3. Линия в треугольной геометрии</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">4. Градуировка в квадратной геометрии
+<p class="mb-2 text-blue-600 ">9 дизайнов стрижек</p>
+<p class="mb-2 text-gray-500 ">1. Линия в квадратной геометрии</p>
+<p class="mb-2 text-gray-500 ">2. Линия в круглой геометрии</p>
+<p class="mb-2 text-gray-500 ">3. Линия в треугольной геометрии</p>
+<p class="mb-2 text-gray-500 ">4. Градуировка в квадратной геометрии
 </p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">5. Градуировка в треугольной геометрии
+<p class="mb-2 text-gray-500 ">5. Градуировка в треугольной геометрии
 </p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">6. Градуировка в круглой геометрии</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">7. Слои в квадратной геометрии</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">8. Слои в круглой геометрии</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">9. Слои в треугольной геометрии</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">10. Три комбинированные формы</p>
-<p class="mb-2 text-blue-600 dark:text-blue-500">5 коммерческих мужских стрижек</p>
-<p class="mb-2 text-blue-600 dark:text-blue-500">Углубленная колористика БАЗА+ ПОВЫШЕНИЕ
+<p class="mb-2 text-gray-500 ">6. Градуировка в круглой геометрии</p>
+<p class="mb-2 text-gray-500 ">7. Слои в квадратной геометрии</p>
+<p class="mb-2 text-gray-500 ">8. Слои в круглой геометрии</p>
+<p class="mb-2 text-gray-500 ">9. Слои в треугольной геометрии</p>
+<p class="mb-2 text-gray-500 ">10. Три комбинированные формы</p>
+<p class="mb-2 text-blue-600 ">5 коммерческих мужских стрижек</p>
+<p class="mb-2 text-blue-600 ">Углубленная колористика БАЗА+ ПОВЫШЕНИЕ
 </p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">топ 10 коммерческих техник окрашивания
+<p class="mb-2 text-gray-500 ">топ 10 коммерческих техник окрашивания
     волос</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">1. Первичная и вторичная техника
+<p class="mb-2 text-gray-500 ">1. Первичная и вторичная техника
     нанесения красителя, работа с сединой</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">2. Babylights</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">3. Air touch</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">4. Бразильское окрашивание</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">5. Highlights</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">6. Балаяж</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">7. Шатуш</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">8. Контуринг</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">9. Растяжка цвета</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">10. Декапирование</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">Научим работать с корректорами,
+<p class="mb-2 text-gray-500 ">2. Babylights</p>
+<p class="mb-2 text-gray-500 ">3. Air touch</p>
+<p class="mb-2 text-gray-500 ">4. Бразильское окрашивание</p>
+<p class="mb-2 text-gray-500 ">5. Highlights</p>
+<p class="mb-2 text-gray-500 ">6. Балаяж</p>
+<p class="mb-2 text-gray-500 ">7. Шатуш</p>
+<p class="mb-2 text-gray-500 ">8. Контуринг</p>
+<p class="mb-2 text-gray-500 ">9. Растяжка цвета</p>
+<p class="mb-2 text-gray-500 ">10. Декапирование</p>
+<p class="mb-2 text-gray-500 ">Научим работать с корректорами,
     смешивать грамотно красители, расскажем что такое % оксиданта и как его
     использовать, как нейтрализовать нежелательный пигмент, изучите самые трендовые
     техники окрашивания</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400"> <span class="text-blue-600 dark:text-blue-500"> Пенные и аква бани
+<p class="mb-2 text-gray-500 "> <span class="text-blue-600 "> Пенные и аква бани
     </span>, бани для
     нейтрализации нежелательного пигмента, цветовые бани, американский шампунь</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400"> <span class="text-blue-600 dark:text-blue-500">SPA
+<p class="mb-2 text-gray-500 "> <span class="text-blue-600 ">SPA
         коктейли</span>+реконструкция волос
 </p>
-<p class="mb-2 text-gray-500 dark:text-gray-400"> <span class="text-blue-600 dark:text-blue-500">5 техник хим.
+<p class="mb-2 text-gray-500 "> <span class="text-blue-600 ">5 техник хим.
         завивки</span> и boost up
     (3 техники в теории и 2 техники в практике)</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400"> <span class="text-blue-600 dark:text-blue-500">8 коммерческих
+<p class="mb-2 text-gray-500 "> <span class="text-blue-600 ">8 коммерческих
         укладок</span> (локоны
     на брашинг, работа со стайлерами и щипцами)</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">1. Укладка феном на короткую длину</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">2. Укладка феном на среднюю длину</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">3. Укладка феном на длинную длину</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">4. Локоны феном на брашинг (техника
+<p class="mb-2 text-gray-500 ">1. Укладка феном на короткую длину</p>
+<p class="mb-2 text-gray-500 ">2. Укладка феном на среднюю длину</p>
+<p class="mb-2 text-gray-500 ">3. Укладка феном на длинную длину</p>
+<p class="mb-2 text-gray-500 ">4. Локоны феном на брашинг (техника
     турецкой укладки)</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">5. Локоны на стайлере</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">6. Локоны щипцами</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">7. Локоны на конусную плойку</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">8. Выпрямление щипцами</p>
-<p class="mb-2 text-gray-500 dark:text-gray-400">Этика и санитарные нормы в салоне
+<p class="mb-2 text-gray-500 ">5. Локоны на стайлере</p>
+<p class="mb-2 text-gray-500 ">6. Локоны щипцами</p>
+<p class="mb-2 text-gray-500 ">7. Локоны на конусную плойку</p>
+<p class="mb-2 text-gray-500 ">8. Выпрямление щипцами</p>
+<p class="mb-2 text-gray-500 ">Этика и санитарные нормы в салоне
     красоты.</p>

@@ -19,13 +19,17 @@ use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 Route::get('/', [IndexController::class, 'index'])->name('home');
-Route::get('/online-training', [OnlineTrainingController::class, 'show'])->name('online');
-Route::get('/callback', [CallbackController::class, 'show'])->name('callback');
-Route::post('/callback', [CallbackController::class, 'store'])->name('callback.submit');
-Route::get('/hair-stylist', [HairstylistController::class, 'index'])->name('hailstylist');
-Route::get('/manicure', [ManicureController::class, 'index'])->name('manicure');
-Route::get('/lamination', [LaminationController::class, 'index'])->name('lamination');
-Route::get('/online-manicure', [OnlineManicureController::class, 'index'])->name('onlinemanicure');
+Route::get('/obratnyi-zvonok', [CallbackController::class, 'show'])->name('callback');
+Route::post('/obratnyi-zvonok', [CallbackController::class, 'store'])->name('callback.submit');
+
+
+Route::prefix('/kursy')->group(function () {
+    Route::get('/online-kursy', [OnlineTrainingController::class, 'show'])->name('courses.online');
+    Route::get('/parikmaher', [HairstylistController::class, 'index'])->name('courses.hailstylist');
+    Route::get('/manikyur', [ManicureController::class, 'index'])->name('courses.manicure');
+    Route::get('/laminirovanie', [LaminationController::class, 'index'])->name('courses.lamination');
+    Route::get('/onlayn-manikyur', [OnlineManicureController::class, 'index'])->name('courses.onlinemanicure');
+});
 
 Route::middleware([
     'auth:sanctum',
@@ -40,14 +44,12 @@ Route::get('/log-in', function () {
     return redirect()->route('login', [], 301);
 });
 Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
-    Route::get('/', [ConsoleController::class, 'store'])->name('callback.store');
+//    Route::get('/', [ConsoleController::class, 'store'])->name('callback.store');
     Route::get('/', [ConsoleController::class, 'show'])->name('console');
     Route::resource('courses', CourseController::class);
     Route::resource('lessons', LessonsController::class);
     Route::resource('user', UserController::class);
     Route::post('/admin/users/{user}/courses/{course}/assign', [UserController::class, 'assignSingleCourse'])->name('user.assignSingleCourse');
     Route::delete('/admin/users/{user}/revoke-course/{course}', [UserController::class, 'revokeCourse'])->name('user.revokeCourse');
-
     Route::delete('/lesson-contents/{content}', [LessonContentController::class, 'destroy'])->name('lesson-contents.destroy');
-
 });

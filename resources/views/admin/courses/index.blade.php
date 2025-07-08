@@ -1,7 +1,46 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="bg-white py-12">
+    @extends('layouts.main')
+
+    @section('content')
+        <div class="h-full flex w-full justify-center items-center dark:bg-gray-800 p-2">
+
+            <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-5">
+
+                <!-- card  -->
+                @foreach($courses as $course)
+                    <div class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+                        <div class="p-2 flex justify-center">
+                            <a href="{{ route('courses.show', $course->id) }}">
+                                <img class="rounded-md no-modal"
+                                     alt="{{ $course->name }}"
+                                     src="{{ asset('storage/' . $course->image) }}"
+                                     loading="lazy">
+                            </a>
+                        </div>
+                        <div class="px-4 pb-3">
+                            <div>
+                                <a href="{{ route('courses.show', $course->id) }}" >
+                                    <h5
+                                        class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                        {{$course->name}}
+                                    </h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+
+
+            </div>
+
+        </div>
+    @endsection
+
+@endsection
+
+{{--    <div class="bg-white py-12">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                 @foreach ($courses as $course)
@@ -42,4 +81,4 @@
             </div>
         </div>
     </div>
-@endsection
+--}}

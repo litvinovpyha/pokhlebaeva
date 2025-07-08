@@ -1,14 +1,14 @@
-<div id="imageModal" class="fixed inset-0 z-50  hidden bg-black bg-opacity-80 flex items-center justify-center">
+<div id="imageModal" class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black bg-opacity-80">
     <div class="relative">
-        <button id="closeModal" class="absolute top-2 right-2 text-white text-3xl font-bold">&times;</button>
-        <img id="modalImage" src="" class="no-modal max-w-full max-h-screen rounded-xl shadow-xl"
+        <button aria-label="Open help menu" id="closeModal" class="absolute text-3xl font-bold text-white top-2 right-2">&times;</button>
+        <img id="modalImage" src="" class="max-w-full max-h-screen shadow-xl no-modal rounded-xl"
             alt="Fullscreen Image">
     </div>
 </div>
-<footer class="bg-white dark:bg-gray-900">
+<footer class="bg-white ">
     <a href="https://indigoshop.kz/"
-        class="block relative bg-gray-50 flex flex-col justify-center items-center  no-underline hover:bg-gray-100 p-4">
-        <p class="text-center text-lg font-semibold text-gray-900 p-6">
+        class="relative flex flex-col items-center justify-center block p-4 no-underline bg-gray-50 hover:bg-gray-100">
+        <p class="p-6 text-lg font-semibold text-center text-gray-900">
             Наш магазин профессиональных инструментов
         </p>
         <span
@@ -16,11 +16,11 @@
             В МАГАЗИН <span aria-hidden="true">&rarr;</span>
         </span>
     </a>
-    <div class="mx-auto w-full max-w-screen-xl p-4">
+    <div class="w-full max-w-screen-xl p-4 mx-auto">
         <div class="grid grid-cols-2 gap-8 md:grid-cols-4">
             <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Наш адрес:</h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Наш адрес:</h2>
+                <ul class="font-medium text-gray-500 ">
                     <li class="mb-4">
                         <a href="https://go.2gis.com/VB4AU" class=" hover:underline">г. Алматы, пр. Гагарина 186/1,<br>
                             уг. Джандосова </a>
@@ -28,8 +28,8 @@
                 </ul>
             </div>
             <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Наши телефоны:</h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Наши телефоны:</h2>
+                <ul class="font-medium text-gray-500 ">
                     <li class="mb-4">
                         <a href="tel:+77279727646" class=" hover:underline">+7-727-972-7646</a>
                     </li>
@@ -39,12 +39,12 @@
                 </ul>
             </div>
             <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Написать нам:</h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Написать нам:</h2>
+                <ul class="font-medium text-gray-500 ">
                     <li class="mb-4">
                         <a href="https://www.instagram.com/pokhlebaeva.pro/?igshid=174ro53kwcgg1"
-                            class="hover:underline flex items-center gap-x-2">
-                            <svg class="size-5 flex text-gray-400 lucide lucide-instagram-icon lucide-instagram"
+                            class="flex items-center hover:underline gap-x-2">
+                            <svg class="flex text-gray-400 size-5 lucide lucide-instagram-icon lucide-instagram"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round">
@@ -57,7 +57,7 @@
                     </li>
                     <li class="mb-4">
                         <a href="https://wa.me/77089727646" target="_blank"
-                            class="hover:underline flex items-center gap-x-2">
+                            class="flex items-center hover:underline gap-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20"
                                 viewBox="0 0 48 48">
                                 <path fill="#fff"
@@ -82,96 +82,21 @@
                 </ul>
             </div>
             <div>
-                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Курсы</h2>
-                <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Курсы</h2>
+                <ul class="font-medium text-gray-500 ">
                     <li class="mb-4">
-                        <a href="{{ route('hailstylist') }}" class="hover:underline">Парикмахер</a>
+                        <a href="{{ route('courses.hailstylist') }}" class="hover:underline">Парикмахер</a>
                     </li>
                     <li class="mb-4">
-                        <a href="{{ route('manicure') }}" class="hover:underline">Маникюр</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="{{ route('lamination') }}" class="hover:underline">Ресницы</a>
-                    </li>
-                    <li class="mb-4">
-                        <a href="{{ route('lamination') }}" class="hover:underline">Брови</a>
+                        <a href="{{ route('courses.manicure') }}" class="hover:underline">Маникюр</a>
                     </li>
                 </ul>
             </div>
         </div>
+            <div class="px-4 py-6 bg-gray-100 md:flex md:items-center md:justify-between">
+            <span class="text-sm text-gray-800 sm:text-center">© 2015-2025 <a href="https://pokhlebaeva.pro/">Школа
+                    Indigo</a>. Все права защищены.
+            </span>
+
+        </div>
     </div>
-</footer>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    function toggleUserMenu() {
-        const menu = document.getElementById('userDropdown');
-        menu.classList.toggle('hidden');
-    }
-    window.addEventListener('click', function (e) {
-        const button = document.getElementById('userMenuButton');
-        const dropdown = document.getElementById('userDropdown');
-        if (!button.contains(e.target) && !dropdown.contains(e.target)) {
-            dropdown.classList.add('hidden');
-        }
-    });
-    function toggleMenuTarif(button) {
-        const targetId = button.getAttribute('data-target');
-        const menu = document.getElementById(targetId);
-        menu.classList.toggle('translate-x-full');
-    }
-    new Swiper('.swiper', {
-        loop: true,
-        slidesPerView: 1,
-        spaceBetween: 24,
-        autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-        },
-        breakpoints: {
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-        }
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-        const buttons = document.querySelectorAll('[data-accordion-target]');
-        buttons.forEach(button => {
-            button.addEventListener('click', function () {
-                const targetSelector = this.getAttribute('data-accordion-target');
-                const target = document.querySelector(targetSelector);
-                const icon = this.querySelector('[data-accordion-icon]');
-                if (target.classList.contains('hidden')) {
-                    target.classList.remove('hidden');
-                    this.setAttribute('aria-expanded', 'true');
-                    if (icon) icon.classList.add('rotate-180');
-                } else {
-                    target.classList.add('hidden');
-                    this.setAttribute('aria-expanded', 'false');
-                    if (icon) icon.classList.remove('rotate-180');
-                }
-            });
-        });
-    });
-    document.addEventListener('DOMContentLoaded', function () {
-        const modal = document.getElementById('imageModal');
-        const modalImg = document.getElementById('modalImage');
-        const closeModal = document.getElementById('closeModal');
-        document.querySelectorAll('img:not(.no-modal)').forEach(img => {
-            img.addEventListener('click', function () {
-                modalImg.src = this.src;
-                modal.classList.remove('hidden');
-            });
-        });
-        closeModal.addEventListener('click', function () {
-            modal.classList.add('hidden');
-        });
-        modal.addEventListener('click', function (e) {
-            if (e.target === modal) {
-                modal.classList.add('hidden');
-            }
-        });
-    });
-</script>
-@include('partials.whatsappjoin')
-</body>
-</html>

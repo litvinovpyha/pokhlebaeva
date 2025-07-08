@@ -1,6 +1,8 @@
-<div x-data="{ open: false }" class="fixed bottom-2 right-2 z-50">
+<div x-data="{ open: false }" class="fixed z-50 bottom-2 right-2">
     <button x-show="!open" @click="open = true"
-        class="relative z-10 bg-green-500 text-white p-2 rounded-full shadow-lg">
+        class="relative z-10 p-2 text-white bg-green-500 rounded-full shadow-lg">
+        <span class="sr-only">Open help menu</span>
+
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="44" height="44" viewBox="0 0 48 48">
             <path fill="#fff"
                 d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z">
@@ -20,16 +22,16 @@
         </svg>
     </button>
     <div x-show="open" x-transition
-        class="absolute bottom-0 right-0 w-72 bg-white rounded-xl shadow-xl p-4 text-gray-800"
+        class="absolute bottom-0 right-0 p-4 text-gray-800 bg-white shadow-xl w-72 rounded-xl"
         @click.away="open = false">
-        <div class="relative bg-white rounded-2xl shadow-lg p-4 max-w-xs text-gray-900">
+        <div class="relative max-w-xs p-4 text-gray-900 bg-white shadow-lg rounded-2xl">
             <button @click="open = false"
-                class="absolute top-2 right-3 text-gray-400 hover:text-gray-600 text-2xl leading-none font-bold select-none">
+                class="absolute text-2xl font-bold leading-none text-gray-400 select-none top-2 right-3 hover:text-gray-600">
                 &times;
             </button>
             <div class="flex items-center mb-3">
                 <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="Avatar"
-                    class="no-modal w-10 h-10 rounded-full mr-3 shadow-sm">
+                    class="w-10 h-10 mr-3 rounded-full shadow-sm no-modal">
                 <div>
                     <p class="font-semibold text-green-600">Поддержка</p>
                     <p class="text-xs text-gray-500">онлайн</p>
@@ -38,11 +40,11 @@
             <p class="relative bg-green-100 text-green-900 text-sm leading-relaxed mb-4 p-3 rounded-lg max-w-[280px]">
                 Здравствуйте! Буду рада помочь. Напишите, что вас интересует, и я быстро отвечу.
                 <span
-                    class="absolute bottom-0 left-0 w-3 h-3 bg-green-100 rounded-tr-lg -mb-1 -ml-2 rotate-45 shadow-sm">
+                    class="absolute bottom-0 left-0 w-3 h-3 -mb-1 -ml-2 rotate-45 bg-green-100 rounded-tr-lg shadow-sm">
                 </span>
             </p>
             <a href="https://wa.me/77089727646" target="_blank"
-                class="block text-center bg-green-500 hover:bg-green-600 text-white font-semibold py-2 rounded-xl transition">
+                class="block py-2 font-semibold text-center text-white transition bg-green-500 hover:bg-green-600 rounded-xl">
                 Открыть чат
             </a>
         </div>

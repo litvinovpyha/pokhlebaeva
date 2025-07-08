@@ -6,4 +6,4 @@ Disallow: /register
 Disallow: /sanctum
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: http://192.168.0.6/sitemap.xml

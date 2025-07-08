@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
-    <loc>http://192.168.0.5:8080</loc>
+    <loc>http://192.168.0.6:8080</loc>
             </url>
     <url>
-    <loc>http://192.168.0.5:8080/online-training</loc>
+    <loc>http://192.168.0.6:8080/obratnyi-zvonok</loc>
             </url>
     <url>
-    <loc>http://192.168.0.5:8080/callback</loc>
+    <loc>http://192.168.0.6:8080/kursy/online-kursy</loc>
             </url>
     <url>
-    <loc>http://192.168.0.5:8080/hair-stylist</loc>
+    <loc>http://192.168.0.6:8080/kursy/parikmaher</loc>
             </url>
     <url>
-    <loc>http://192.168.0.5:8080/manicure</loc>
+    <loc>http://192.168.0.6:8080/kursy/manikyur</loc>
             </url>
     <url>
-    <loc>http://192.168.0.5:8080/lamination</loc>
+    <loc>http://192.168.0.6:8080/kursy/laminirovanie</loc>
             </url>
     <url>
-    <loc>http://192.168.0.5:8080/onlinemanicure</loc>
+    <loc>http://192.168.0.6:8080/kursy/onlayn-manikyur</loc>
             </url>
 </urlset>

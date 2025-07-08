@@ -1,10 +1,34 @@
 @extends('layouts.main')
-@section('title', 'Заказать обратный звонок - Школа-студия Indigo')
 
+@section('title', 'Заказать обратный звонок — Школа Indigo')
+@section('meta_description', 'Оставьте заявку на обратный звонок от школы Indigo. Мы свяжемся с вами в ближайшее время и ответим на все вопросы об обучении.')
+@section('meta_keywords', 'обратный звонок Indigo, связаться, консультация, парикмахерские курсы, курсы маникюра')
+@section('jsonld')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Обратный звонок — Школа Indigo",
+  "url": "{{ url('/obratnyi-zvonok') }}",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "Школа-студия Indigo",
+    "url": "{{ url('/') }}",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+7 777 777 77 77",
+      "contactType": "customer support",
+      "areaServed": "KZ",
+      "availableLanguage": ["ru"]
+    }
+  }
+}
+</script>
+@endsection
 @section('content')
-    <div class="flex min-h-full flex-col justify-center p-4">
+    <div class="flex flex-col justify-center min-h-full p-4">
         <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-            <h2 class=" text-center text-2xl/9 font-bold tracking-tight text-gray-900">Оставить заявку!
+            <h2 class="font-bold tracking-tight text-center text-gray-900 text-2xl/9">Оставить заявку!
             </h2>
         </div>
         <div class=" sm:mx-auto sm:w-full sm:max-w-sm">
@@ -12,7 +36,7 @@
                 @csrf
 
                 <div>
-                    <label for="text" class="block text-sm/6 font-medium text-gray-900">Ваше ФИО</label>
+                    <label for="text" class="block font-medium text-gray-900 text-sm/6">Ваше ФИО</label>
                     <div class="mt-2">
                         <input type="text" name="name" id="name" required
                             class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
@@ -27,14 +51,14 @@
                         placeholder="+7 (7__) ___-__-__"
                             class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:outline-indigo-600 sm:text-sm">
                         @error('phone')
-                            <div class="text-red-600 text-sm">{{ $message }}</div>
+                            <div class="text-sm text-red-600">{{ $message }}</div>
                         @enderror
 
                     </div>
                 </div>
                 <div>
                     <div class="flex items-center justify-between">
-                        <label for="about" class="block text-sm/6 font-medium text-gray-900">Напишите когда вам удобно
+                        <label for="about" class="block font-medium text-gray-900 text-sm/6">Напишите когда вам удобно
                             ответить (не обязательно)</label>
                         <div class="text-sm">
                             <a href="#" class="font-semibold text-indigo-600 hover:text-indigo-500"></a>
@@ -45,7 +69,7 @@
                             class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                                                                         </textarea>
                     </div>
-                    <p class="mt-3 text-sm/6 text-gray-600">Или напишите вопрос который вас интересует</p>
+                    <p class="mt-3 text-gray-600 text-sm/6">Или напишите вопрос который вас интересует</p>
                 </div>
                 <div>
                     <button type="submit"

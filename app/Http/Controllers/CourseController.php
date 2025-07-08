@@ -43,9 +43,10 @@ class CourseController extends Controller
         $course->price = $validated['price'];
 
         if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('courses', 'public');
-            $course->image = $imagePath;
+            $path = $request->file('image')->store('', 'public'); // '' — значит корень storage/app/public
+            $course->image = $path;
         }
+
 
 
         $course->save();

@@ -5,19 +5,19 @@
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm1.jpg') }}" alt="атмосфера"
+                        <img src="{{ asset('images/atmosphere/atm1.webp') }}" alt="атмосфера"
                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm2.jpg') }}" alt="атмосфера"
+                        <img src="{{ asset('images/atmosphere/atm2.webp') }}" alt="атмосфера"
                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm3.jpg') }}" alt="атмосфера"
+                        <img src="{{ asset('images/atmosphere/atm3.webp') }}" alt="атмосфера"
                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm4.jpg') }}" alt="атмосфера"
+                        <img src="{{ asset('images/atmosphere/atm4.webp') }}" alt="атмосфера"
                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                 </div>
