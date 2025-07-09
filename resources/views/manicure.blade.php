@@ -172,14 +172,14 @@
                             <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
-                                <li></li>
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Научитесь работать быстро, уверенно и без риска травм</li>
-                                <li></li>
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
@@ -188,7 +188,7 @@
                                 <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
                                     френча и ремонт сломанных ногтей
                                 </li>
-                                <li></li>
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
@@ -349,14 +349,14 @@
                             <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
-                                <li></li>
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Научитесь работать быстро, уверенно и без риска травм</li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -366,7 +366,7 @@
                                 <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
                                     френча и ремонт сломанных ногтей
                                 </li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -518,22 +518,6 @@
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="pt-4 border-gray-200">
-                            <p class="font-medium text-gray-900">Дополнительно вы освоите:</p>
-                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Гель-покрытие «под кутикулу» с зеркальным бликом (2 техники)</li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Гель-покрытие под кутикулу с идеальными бликами</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
@@ -545,14 +529,14 @@
                             <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
-                                <li></li>
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Научитесь работать быстро, уверенно и без риска травм</li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -562,7 +546,7 @@
                                 <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
                                     френча и ремонт сломанных ногтей
                                 </li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -747,14 +731,14 @@
                             <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
-                                <li></li>
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Научитесь работать быстро, уверенно и без риска травм</li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -764,7 +748,7 @@
                                 <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
                                     френча и ремонт сломанных ногтей
                                 </li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -948,14 +932,14 @@
                             <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
-                                <li></li>
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Научитесь работать быстро, уверенно и без риска травм</li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -965,7 +949,7 @@
                                 <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
                                     френча и ремонт сломанных ногтей
                                 </li>
-                                <li></li>
+
                             </ul>
                         </div>
 
@@ -1321,8 +1305,8 @@
                                 <li>Подходит для беременных, аллергиков и поклонников естественного образа</li>
                                 <li>Освоите поэтапную процедуру восстановления, шлифовки и полировки ногтевой пластины с
                                     применением паст и пудр на основе природных компонентов</li>
-                                <li></li>
-                                <li></li>
+
+
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
