@@ -226,7 +226,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -37% до 5 августа
+                                -30% до 5 августа
                             </div>
 
                             <!-- Заголовок -->
@@ -239,13 +239,13 @@
                                 <!-- Старая цена + новая -->
                                 <p class="flex items-baseline text-sm gap-x-2">
                                     <span class="text-base text-gray-400 line-through sm:text-sm">143 000 ₸</span>
-                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">89 000 ₸</span>
+                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">99 000 ₸</span>
                                 </p>
 
                                 <!-- Рассрочка -->
                                 <p class="text-sm text-gray-300">
                                     В рассрочку на <span class="font-medium text-white">12 месяцев</span> по
-                                    <span class="font-medium text-white">7 417 ₸/мес.</span>
+                                    <span class="font-medium text-white">8 333 ₸/мес.</span>
                                 </p>
 
                             </div>
@@ -405,7 +405,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -38% до 5 августа
+                                -30% до 5 августа
                             </div>
 
                             <!-- Заголовок -->
@@ -419,13 +419,13 @@
                                 <!-- Старая цена + новая -->
                                 <p class="flex items-baseline text-sm gap-x-2">
                                     <span class="text-base text-gray-400 line-through sm:text-sm">200 000 ₸</span>
-                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">123 990 ₸</span>
+                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">139 990 ₸</span>
                                 </p>
 
                                 <!-- Рассрочка -->
                                 <p class="text-sm text-gray-300">
                                     В рассрочку на <span class="font-medium text-white">12 месяцев</span> по
-                                    <span class="font-medium text-white">10 333 ₸/мес.</span>
+                                    <span class="font-medium text-white">11 666 ₸/мес.</span>
                                 </p>
 
                             </div>
@@ -493,9 +493,8 @@
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
-                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">Базовый
-                    курс
-                    маникюра и педикюра</h2>
+                <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">
+                    Базовый курс маникюра и педикюра</h2>
                 <p class="mt-4 text-center text-gray-500">Программа курса включает:</p>
 
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
@@ -594,7 +593,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -37% до 5 августа
+                                -30% до 5 августа
                             </div>
 
                             <!-- Заголовок -->
@@ -608,13 +607,13 @@
                                 <!-- Старая цена + новая -->
                                 <p class="flex items-baseline text-sm gap-x-2">
                                     <span class="text-base text-gray-400 line-through sm:text-sm">172 000 ₸</span>
-                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">108 000 ₸</span>
+                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">119 990 ₸</span>
                                 </p>
 
                                 <!-- Рассрочка -->
                                 <p class="text-sm text-gray-300">
                                     В рассрочку на <span class="font-medium text-white">12 месяцев</span> по
-                                    <span class="font-medium text-white">9 000 ₸/мес.</span>
+                                    <span class="font-medium text-white">9 999 ₸/мес.</span>
                                 </p>
 
                             </div>
@@ -785,7 +784,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -40% до 5 августа
+                                -30% до 5 августа
                             </div>
 
                             <!-- Заголовок -->
@@ -799,13 +798,13 @@
                                 <!-- Старая цена + новая -->
                                 <p class="flex items-baseline text-sm gap-x-2">
                                     <span class="text-base text-gray-400 line-through sm:text-sm">229 000 ₸</span>
-                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">139 000 ₸</span>
+                                    <span class="text-2xl font-bold text-green-400 sm:text-xl">159 990 ₸</span>
                                 </p>
 
                                 <!-- Рассрочка -->
                                 <p class="text-sm text-gray-300">
                                     В рассрочку на <span class="font-medium text-white">12 месяцев</span> по
-                                    <span class="font-medium text-white">11 584 ₸/мес.</span>
+                                    <span class="font-medium text-white">13 333 ₸/мес.</span>
                                 </p>
 
                             </div>
