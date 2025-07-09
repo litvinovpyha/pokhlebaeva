@@ -291,7 +291,10 @@
             </div>
         </div>
     </div>
-    @include('partials.coursesingup', ['title' => 'Вам стоит записаться на курс в школу INDIGO, если вы:'])
+    @include('partials.coursesingup', [
+        'title' => 'Почему вам стоит записаться на курс маникюра и педикюра в школе indigo:',
+        'count' => '5',
+    ])
     @include('partials.reviews', ['video' => 'false', 'content' => 'onlinemanicure'])
     @include('partials.team', ['title' => 'Тренер Курса', 'persons' => ['olya', 'veronika', 'vika']])
 @endsection

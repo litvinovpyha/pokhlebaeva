@@ -424,7 +424,7 @@
 
                     </div>
                     <div class="shrink-0">
-                        <h3 class="block text-base font-semibold text-gray-800 ">Ищете стабильный доход</h3>
+                        <h3 class="block text-base font-semibold text-gray-800 ">Вы в поисках стабильного дохода</h3>
                     </div>
                 </div>
                 <p class="text-gray-600 ">Работа мастером красоты — это возможность зарабатывать без потолка. Всё
@@ -445,7 +445,7 @@
 
                     </div>
                     <div class="shrink-0">
-                        <h3 class="block text-base font-semibold text-gray-800 ">Вы мама и ищете гибкий график</h3>
+                        <h3 class="block text-base font-semibold text-gray-800 ">Тем, кто ценит свободу и доход</h3>
                     </div>
                 </div>
                 <p class="text-gray-600 ">Освойте профессию, с которой можно зарабатывать из дома или работать в удобное
@@ -503,7 +503,8 @@
         </div>
     </div>
     @include('partials.reviews', ['video' => 'false', 'content' => 'index'])
-    @include('partials.coursesingup', ['title' => 'Вам стоит записаться на курс в школу INDIGO, если вы:'])
+    @include('partials.coursesingup', ['title' => 'Почему вам стоит записаться в школу красоты indigo:',
+'count' => '8',])
     @include('partials.fivesection')
     @include('partials.team', [
         'title' => 'Наша команда',
