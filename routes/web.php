@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\CallbackController;
 use App\Http\Controllers\ConsoleController;
+use App\Http\Controllers\SeoController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\MyCoursesController;
 use App\Http\Controllers\MyLessonController;
@@ -15,8 +16,8 @@ use App\Http\Controllers\ManicureController;
 use App\Http\Controllers\OnlineTrainingController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\IsAdmin;
+use App\Http\Middleware\IsSeo;
 use Illuminate\Support\Facades\Route;
-use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 Route::get('/', [IndexController::class, 'index'])->name('home');
 Route::get('/obratnyi-zvonok', [CallbackController::class, 'show'])->name('callback');
@@ -64,4 +65,8 @@ Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
     Route::post('/admin/users/{user}/courses/{course}/assign', [UserController::class, 'assignSingleCourse'])->name('user.assignSingleCourse');
     Route::delete('/admin/users/{user}/revoke-course/{course}', [UserController::class, 'revokeCourse'])->name('user.revokeCourse');
     Route::delete('/lesson-contents/{content}', [LessonContentController::class, 'destroy'])->name('lesson-contents.destroy');
+});
+Route::middleware([IsSeo::class])->prefix('console')->group(function () {
+    Route::get('/', [SeoController::class, 'show'])->name('seo');
+    Route::post('/save-gtm', [SeoController::class, 'saveGtm'])->name('seo.save.gtm');
 });
