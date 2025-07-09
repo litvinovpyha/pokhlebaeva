@@ -25,7 +25,7 @@ Route::post('/obratnyi-zvonok', [CallbackController::class, 'store'])->name('cal
 
 Route::prefix('/kursy')->group(function () {
     Route::get('/online-kursy', [OnlineTrainingController::class, 'show'])->name('courses.online');
-    Route::get('/parikmaher', [HairstylistController::class, 'index'])->name('courses.hailstylist');
+    Route::get('/parikmaher', [HairstylistController::class, 'index'])->name('courses.hairstylist');
     Route::get('/manikyur', [ManicureController::class, 'index'])->name('courses.manicure');
     Route::get('/laminirovanie', [LaminationController::class, 'index'])->name('courses.lamination');
     Route::get('/onlayn-manikyur', [OnlineManicureController::class, 'index'])->name('courses.onlinemanicure');
@@ -45,11 +45,14 @@ Route::get('/log-in', function () {
 });
 
 Route::get('/hairstylist', function () {
-    return redirect()->route('courses.hailstylist', [], 301);
+    return redirect()->route('courses.hairstylist', [], 301);
 });
 
 Route::get('/manicure', function () {
     return redirect()->route('courses.manicure', [], 301);
+});
+Route::get('/otzyvi-parikmaherov', function () {
+    return redirect()->route('courses.hairstylist', [], 301);
 });
 
 Route::middleware([IsAdmin::class])->prefix('console')->group(function () {

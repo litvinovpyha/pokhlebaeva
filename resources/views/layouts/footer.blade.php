@@ -85,7 +85,7 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase ">Курсы</h2>
                 <ul class="font-medium text-gray-500 ">
                     <li class="mb-4">
-                        <a href="{{ route('courses.hailstylist') }}" class="hover:underline">Парикмахер</a>
+                        <a href="{{ route('courses.hairstylist') }}" class="hover:underline">Парикмахер</a>
                     </li>
                     <li class="mb-4">
                         <a href="{{ route('courses.manicure') }}" class="hover:underline">Маникюр</a>

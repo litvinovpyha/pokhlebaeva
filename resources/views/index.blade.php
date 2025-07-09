@@ -326,7 +326,7 @@
                     @php
                         $items = [
                             [
-                                'route' => 'courses.hailstylist',
+                                'route' => 'courses.hairstylist',
                                 'title' => 'Курсы парикмахеров, колористов',
                                 'img' => 'images/hairstylist/kursi-parikmaherov.webp',
                             ],
