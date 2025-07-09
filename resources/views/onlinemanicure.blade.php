@@ -115,7 +115,7 @@
                             <!-- Метка скидки -->
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -70% до 5 мая
+                                -70% до 5 августа
                             </div>
 
                             <!-- Заголовок -->
@@ -203,7 +203,7 @@
                             class="relative w-full max-w-2xl px-3 py-6 text-white shadow-xl bg-gray-900/90 backdrop-blur-lg rounded-2xl sm:p-12 ring-1 ring-white/10">
                             <div
                                 class="absolute top-0 right-0 px-3 py-1 font-bold text-white uppercase bg-red-700 shadow-md text-1xl rounded-xl">
-                                -70% до 5 мая
+                                -70% до 5 августа
                             </div>
 
                             <h3

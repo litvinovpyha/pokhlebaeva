@@ -61,7 +61,7 @@
             <div class="space-y-8 lg:max-w-lg">
                 @if ($showFirstVideo)
                     <div class="relative w-full {{ $aspectClass }}">
-                        <iframe src="https://www.youtube.com/embed/VM58zK6j-SA" title="Видео 1"
+                        <iframe src="https://www.youtube-nocookie.com/embed/VM58zK6j-SA" title="Видео 1"
                                 class="absolute top-0 left-0 h-full w-full rounded-xl shadow-xl ring-1 ring-gray-400/10"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,7 +70,7 @@
                 @endif
                 @if ($showSecondVideo)
                     <div class="relative w-full {{ $aspectClass }}">
-                        <iframe src="https://www.youtube.com/embed/Ooa9MCuowxs" title="Видео 2"
+                        <iframe src="https://www.youtube-nocookie.com/embed/Ooa9MCuowxs" title="Видео 2"
                                 class="absolute top-0 left-0 h-full w-full rounded-xl shadow-xl ring-1 ring-gray-400/10"
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
