@@ -114,7 +114,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">✂ БЛОК 1. Коммерческие стрижки
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 1. Коммерческие стрижки
 
                             </p>
 
@@ -158,7 +158,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">🎨 БЛОК 2. Углублённая
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 2. Углублённая
                                 колористика
                             </p>
 
@@ -197,7 +197,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">💁‍♀ БЛОК 3. Коммерческие укладки
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 3. Коммерческие укладки
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -227,7 +227,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">💆‍♀ БЛОК 4. Перманентная завивка
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 4. Перманентная завивка
                                 и
                                 SPA-уходы
 
@@ -609,7 +609,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">📚 ✂ БЛОК 1. Коммерческие стрижки
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 1. Коммерческие стрижки
 
                             </p>
 
@@ -648,7 +648,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">🎨 БЛОК 2. Углублённая
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 2. Углублённая
                                 колористика
                             </p>
 
@@ -691,7 +691,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">💁‍♀ БЛОК 3. Коммерческие укладки
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 3. Коммерческие укладки
                             </p>
 
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -720,7 +720,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">💆‍♀ БЛОК 4. Перманентная завивка
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 4. Перманентная завивка
                                 и
                                 SPA-уходы
 
@@ -1014,7 +1014,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">🎨 БЛОК 1. Углублённая
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 1. Углублённая
                                 колористика
                             </p>
 
@@ -1065,7 +1065,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">💁‍♀ БЛОК 2. Коммерческие укладки
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 2. Коммерческие укладки
 
                             </p>
 
@@ -1229,7 +1229,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">✂ БЛОК 1. Женские коммерческие
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 1. Женские коммерческие
                                 стрижки
 
                             </p>
@@ -1275,7 +1275,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">🎨 БЛОК 2. Углублённая
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 2. Углублённая
                                 колористика (база + повышение)
                             </p>
 
@@ -1331,7 +1331,7 @@
                 <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-li">
                         <div class="pt-4">
-                            <p class="font-medium text-center text-gray-900 uppercase">💇‍♀ БЛОК 3. Укладки и SPA-уходы
+                            <p class="font-medium text-center text-gray-900 uppercase">БЛОК 3. Укладки и SPA-уходы
 
                             </p>
 
