@@ -43,6 +43,15 @@ Route::middleware([
 Route::get('/log-in', function () {
     return redirect()->route('login', [], 301);
 });
+
+Route::get('/hairstylist', function () {
+    return redirect()->route('courses.hailstylist', [], 301);
+});
+
+Route::get('/manicure', function () {
+    return redirect()->route('courses.manicure', [], 301);
+});
+
 Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
 //    Route::get('/', [ConsoleController::class, 'store'])->name('callback.store');
     Route::get('/', [ConsoleController::class, 'show'])->name('console');

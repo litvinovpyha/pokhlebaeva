@@ -5,20 +5,44 @@
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm1.webp') }}" alt="атмосфера"
+                        <img src="{{ asset('images/atmosphere/index/atm1.webp') }}" alt="атмосфера"
                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm2.webp') }}" alt="атмосфера"
-                            class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                        <img src="{{ asset('images/atmosphere/index/atm2.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm3.webp') }}" alt="атмосфера"
-                            class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                        <img src="{{ asset('images/atmosphere/index/atm3.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/atm4.webp') }}" alt="атмосфера"
-                            class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                        <img src="{{ asset('images/atmosphere/index/atm4.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm5.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm6.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm7.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm8.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm9.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('images/atmosphere/index/atm0.webp') }}" alt="атмосфера"
+                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                 </div>
             </div>
