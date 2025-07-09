@@ -15,7 +15,7 @@ class MyCoursesController extends Controller
             $user = Auth::user();
             $courses = $user->courses;
             if ($courses->isEmpty()) {
-                return redirect(to: '/courses.online');
+                return redirect(to: '/kursy/online-kursy');
             }
             return view('mycourses.index', compact('courses'));
         }
