@@ -130,7 +130,6 @@
     />
 
     @include('partials.guarantee', ['showFirstVideo' => false])
-    <!-- Базовый курс маникюра "идеальный комбинированный"                     DONE-->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
@@ -150,73 +149,72 @@
                         </div>
                     </li>
                     <li class="right-dl">
+
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Две коммерческие техники маникюра</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Комбинированный маникюр одной фрезой + работа ножничками или щипчиками
-                                    Идеальная техника, востребованная в салонах — быстро, безопасно и качественно.
-
+                                    Идеальная техника, востребованная в салонах — быстро, безопасно и качественно
                                 </li>
-                                <li> Японский маникюр (экоглянцевание)
-                                    Экоуход без геля, идеально подходит для клиентов с чувствительными ногтями.
-
+                                <li>Японский маникюр (эко глянцевание)
+                                    Эко уход без геля, идеально подходит для клиентов с чувствительными ногтями
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> Гель-покрытие под кутикулу с идеальными бликами
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Вы отработаете две техники, чтобы добиться
-                                идеального покрытия и зеркального блика.</span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Гель-покрытие под кутикулу с идеальными бликами</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы отработаете две техники, чтобы добиться идеального покрытия и зеркального блика
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь работать быстро, уверенно и без риска травм</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Архитектура ногтей и реставрация</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
+                                    френча и ремонт сломанных ногтей
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Экспресс-дизайны, которые продаются</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы узнаете, как быстро и просто делать трендовые
+                                    дизайны:
+                                </li>
+                                <li>Френч • Стемпинг • Пигменты • Стразы • Слайдеры • Кошачий глаз • Фольга • Поталь •
+                                    Сухоцветы • Втирка
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">SPA-уход для рук и ногтей</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Дополнительная услуга в прайсе, повышающая чек и лояльность клиента</li>
+                            </ul>
                         </div>
 
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Пошаговая техника правильного опила и подбора
-                                формы
-                                под руку клиента.
-
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Мобильная фотосъёмка ваших работ</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь снимать свои работы красиво — даже на телефон</li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Работа с фрезами без пропилов
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Научитесь работать быстро, уверенно и без риска
-                                травм.
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Архитектура ногтей и реставрация
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Построение чёткой формы, восстановление углов,
-                                создание идеального квадрата, ровного френча и ремонт сломанных ногтей.
-                            </span>
-                        </div>
-
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> Экспресс-дизайны, которые продаются
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Вы узнаете, как быстро и просто делать трендовые
-                                дизайны: Френч • Стемпинг • Пигменты • Стразы • Слайдеры • Кошачий глаз • Фольга • Поталь •
-                                Сухоцветы • Втирка
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> SPA-уход для рук и ногтей
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Дополнительная услуга в прайсе, повышающая чек и
-                                лояльность клиента.
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> Мобильная фотосъёмка ваших работ
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Научитесь снимать свои работы красиво —
-                                даже на телефон.</span>
-                        </div>
-
                     </li>
                 </ul>
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
@@ -309,7 +307,6 @@
             </div>
         </div>
     </div>
-    <!-- интенсивный курс маникюра "идеальный комбинированный+ аппаратный"     DONE -->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
@@ -329,73 +326,74 @@
                         </div>
                     </li>
                     <li class="right-dl">
-                        <div class="pt-4">
-                            <p class="font-medium text-gray-900">Маникюр — 3 ключевые техники, которые приносят доход:
-                            </p>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Маникюр — 3 ключевые техники, которые приносят
+                                доход:</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Аппаратный маникюр — современная и быстрая техника
+                                <li>Аппаратный маникюр — современная и быстрая техника</li>
+                                <li>Комбинированный одной фрезой + щипчики / ножнички — для плотной и чистой обработки
                                 </li>
-                                <li>Комбинированный одной фрезой + щипчики/ножнички — для плотной и чистой обработки
-                                </li>
-                                <li>Японский маникюр (экоглянцевание) — уход без покрытия, подходит даже беременным и
+                                <li>Японский маникюр (эко глянцевание) — уход без покрытия, подходит даже беременным и
                                     аллергикам
                                 </li>
                             </ul>
                         </div>
-
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> Гель-покрытие под кутикулу с идеальными бликами
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Вы отработаете две техники, чтобы добиться
-                                идеального покрытия и зеркального блика.</span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Гель-покрытие под кутикулу с идеальными бликами</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы отработаете две техники, чтобы добиться идеального покрытия и зеркального блика
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь работать быстро, уверенно и без риска травм</li>
+                                <li></li>
+                            </ul>
                         </div>
 
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Пошаговая техника правильного опила и подбора
-                                формы
-                                под руку клиента.
-
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Работа с фрезами без пропилов
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Научитесь работать быстро, уверенно и без риска
-                                травм.
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Архитектура ногтей и реставрация
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Построение чёткой формы, восстановление углов,
-                                создание идеального квадрата, ровного френча и ремонт сломанных ногтей.
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Архитектура ногтей и реставрация</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
+                                    френча и ремонт сломанных ногтей
+                                </li>
+                                <li></li>
+                            </ul>
                         </div>
 
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> Экспресс-дизайны, которые продаются
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Вы узнаете, как быстро и просто делать трендовые
-                                дизайны: Френч • Стемпинг • Пигменты • Стразы • Слайдеры • Кошачий глаз • Фольга • Поталь •
-                                Сухоцветы • Втирка
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Экспресс-дизайны, которые продаются</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы узнаете, как быстро и просто делать трендовые
+                                    дизайны:
+                                </li>
+                                <li>Френч • Стемпинг • Пигменты • Стразы • Слайдеры • Кошачий глаз • Фольга • Поталь •
+                                    Сухоцветы • Втирка
+                                </li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> SPA-уход для рук и ногтей
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Дополнительная услуга в прайсе, повышающая чек и
-                                лояльность клиента.
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> Мобильная фотосъёмка ваших работ
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Научитесь снимать свои работы красиво —
-                                даже на телефон.</span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">SPA-уход для рук и ногтей</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Дополнительная услуга в прайсе, повышающая чек и лояльность клиента</li>
+                            </ul>
                         </div>
 
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Мобильная фотосъёмка ваших работ</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь снимать свои работы красиво — даже на телефон</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
@@ -507,84 +505,109 @@
                         </div>
                     </li>
                     <li class="right-dl">
-                        <div class="pt-4">
-                            <p class="font-medium text-gray-900">Маникюр — 3 ключевые техники, которые приносят доход:
-                            </p>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Маникюр — 3 ключевые техники, которые приносят
+                                доход:</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Аппаратный маникюр — современная и быстрая техника
+                                <li>Аппаратный маникюр — современная и быстрая техника</li>
+                                <li>Комбинированный одной фрезой + щипчики / ножнички — для плотной и чистой обработки
                                 </li>
-                                <li>Комбинированный одной фрезой + щипчики/ножнички — для плотной и чистой обработки
-                                </li>
-                                <li>Японский маникюр (экоглянцевание) — уход без покрытия, подходит даже беременным и
+                                <li>Японский маникюр (эко глянцевание) — уход без покрытия, подходит даже беременным и
                                     аллергикам
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="pt-4 border-t border-gray-200">
+                        <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Дополнительно вы освоите:</p>
-
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Гель-покрытие «под кутикулу» с зеркальным
-                                    бликом
-                                    (2 техники)
-                                </li>
-                                <li>Правильный опил форм: овал, квадрат, мягкий
-                                    квадрат, миндаль
-                                </li>
-                                <li>Работа с фрезами без пропилов — безопасно и
-                                    уверенно
-                                </li>
-                                <li>Архитектура ногтя: чёткий квадрат,
-                                    восстановление
-                                    формы, френч
-                                </li>
-                                <li>Ремонт и реставрация сломанного ногтя</li>
-                                <li>Быстрые и модные дизайны: френч, стразы,
-                                    слайдеры,
-                                    пигменты, втирка, поталь, кошачий глаз, фольга, сухоцветы
-                                </li>
-                                <li>SPA-уход для рук и ногтей</li>
-                                <li>Правила фотосъёмки для Instagram и портфолио
-                                    (даже
-                                    на телефон)
-                                </li>
-                            </ul>
-
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Педикюр — эстетика + безопасность:
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Эстетический педикюр с аппаратной обработкой
-                                стоп
-                                (на дисках)
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Комбинированная техника обработки пальчиков:
-                                фреза
-                                +
-                                щипчики
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Опил формы ногтей при педикюре.
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">
-                                И главное:
-                            </p>
-                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Реальная практика на моделях
-                                </li>
-                                <li>Поддержка тренера и разбор ошибок
-                                </li>
-                                <li>Все материалы и инструменты включены
-                                </li>
-                                <li>После курса — возможность трудоустройства и
-                                    постоянная обратная связь
-                                </li>
+                                <li>Гель-покрытие «под кутикулу» с зеркальным бликом (2 техники)</li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
                             </ul>
                         </div>
 
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Гель-покрытие под кутикулу с идеальными бликами</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы отработаете две техники, чтобы добиться идеального покрытия и зеркального блика
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь работать быстро, уверенно и без риска травм</li>
+                                <li></li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Архитектура ногтей и реставрация</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
+                                    френча и ремонт сломанных ногтей
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Экспресс-дизайны, которые продаются</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы узнаете, как быстро и просто делать трендовые
+                                    дизайны:
+                                </li>
+                                <li>Френч • Стемпинг • Пигменты • Стразы • Слайдеры • Кошачий глаз • Фольга • Поталь •
+                                    Сухоцветы • Втирка
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">SPA-уход для рук и ногтей</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Дополнительная услуга в прайсе, повышающая чек и лояльность клиента</li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Мобильная фотосъёмка ваших работ</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь снимать свои работы красиво — даже на телефон</li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Педикюр — эстетика + безопасность:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Эстетический педикюр с аппаратной обработкой стоп (на дисках)</li>
+                                <li>Комбинированная техника обработки пальчиков: фреза + щипчики</li>
+                                <li>Опил формы ногтей при педикюре</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">И главное:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Реальная практика на моделях</li>
+                                <li>Поддержка тренера и разбор ошибок</li>
+                                <li>Все материалы и инструменты включены</li>
+                                <li>После курса — возможность трудоустройства и постоянная обратная связь</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
@@ -699,81 +722,92 @@
                         </div>
                     </li>
                     <li class="right-dl">
-                        <div class="pt-4">
-                            <p class="font-medium text-gray-900">Маникюр — 3 ключевые техники, которые приносят доход:
-                            </p>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Маникюр — 3 ключевые техники, которые приносят
+                                доход:</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Аппаратный маникюр — современная и быстрая техника
+                                <li>Аппаратный маникюр — современная и быстрая техника</li>
+                                <li>Комбинированный одной фрезой + щипчики / ножнички — для плотной и чистой обработки
                                 </li>
-                                <li>Комбинированный одной фрезой + щипчики/ножнички — для плотной и чистой обработки
-                                </li>
-                                <li>Японский маникюр (экоглянцевание) — уход без покрытия, подходит даже беременным и
+                                <li>Японский маникюр (эко глянцевание) — уход без покрытия, подходит даже беременным и
                                     аллергикам
                                 </li>
                             </ul>
                         </div>
 
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Дополнительно вы освоите:</p>
 
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Гель-покрытие под кутикулу с идеальными бликами</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Гель-покрытие «под кутикулу» с зеркальным
-                                    бликом
-                                    (2 техники)
-                                </li>
-                                <li>Правильный опил форм: овал, квадрат, мягкий
-                                    квадрат, миндаль
-                                </li>
-                                <li>Работа с фрезами без пропилов — безопасно и
-                                    уверенно
-                                </li>
-                                <li>Архитектура ногтя: чёткий квадрат,
-                                    восстановление
-                                    формы, френч
-                                </li>
-                                <li>Ремонт и реставрация сломанного ногтя</li>
-                                <li>Быстрые и модные дизайны: френч, стразы,
-                                    слайдеры,
-                                    пигменты, втирка, поталь, кошачий глаз, фольга, сухоцветы
-                                </li>
-                                <li>SPA-уход для рук и ногтей</li>
-                                <li>Правила фотосъёмки для Instagram и портфолио
-                                    (даже
-                                    на телефон)
+                                <li>Вы отработаете две техники, чтобы добиться идеального покрытия и зеркального блика
                                 </li>
                             </ul>
-
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Педикюр — эстетика + безопасность:
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Эстетический педикюр с аппаратной обработкой
-                                стоп
-                                (на дисках)
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Комбинированная техника обработки пальчиков:
-                                фреза
-                                +
-                                щипчики
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Опил формы ногтей при педикюре.
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">
-                                И главное:
-                            </p>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Реальная практика на моделях
+                                <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь работать быстро, уверенно и без риска травм</li>
+                                <li></li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Архитектура ногтей и реставрация</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
+                                    френча и ремонт сломанных ногтей
                                 </li>
-                                <li>Поддержка тренера и разбор ошибок
+                                <li></li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Экспресс-дизайны, которые продаются</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы узнаете, как быстро и просто делать трендовые
+                                    дизайны:
                                 </li>
-                                <li>Все материалы и инструменты включены
+                                <li>Френч • Стемпинг • Пигменты • Стразы • Слайдеры • Кошачий глаз • Фольга • Поталь •
+                                    Сухоцветы • Втирка
                                 </li>
-                                <li>После курса — возможность трудоустройства и
-                                    постоянная обратная связь
-                                </li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">SPA-уход для рук и ногтей</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Дополнительная услуга в прайсе, повышающая чек и лояльность клиента</li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Мобильная фотосъёмка ваших работ</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь снимать свои работы красиво — даже на телефон</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Педикюр — эстетика + безопасность:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Эстетический педикюр с аппаратной обработкой стоп (на дисках)</li>
+                                <li>Комбинированная техника обработки пальчиков: фреза + щипчики</li>
+                                <li>Опил формы ногтей при педикюре</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">И главное:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Реальная практика на моделях</li>
+                                <li>Поддержка тренера и разбор ошибок</li>
+                                <li>Все материалы и инструменты включены</li>
+                                <li>После курса — возможность трудоустройства и постоянная обратная связь</li>
+
                             </ul>
                         </div>
 
@@ -893,102 +927,100 @@
                         </div>
                     </li>
                     <li class="right-dl">
-                        <div class="pt-4">
-                            <p class="font-medium text-gray-900">Блок 1: Коммерческий маникюр</p>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Коммерческий маникюр</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Аппаратный маникюр по-мокрому — техника повышенной деликатности
-                                </li>
-                                <li>Комбинированный маникюр одной фрезой + щипчики/ножнички — чисто и быстро
-                                </li>
-                                <li>Японский маникюр (экоглянцевание) — натуральный уход без гель-покрытия
+                                <li>Аппаратный маникюр по-мокрому — техника повышенной деликатности</li>
+                                <li>Комбинированный маникюр одной фрезой + щипчики/ножнички — чисто и быстро</li>
+                                <li>Японский маникюр (экоглянцевание) — натуральный уход без гель-покрытия</li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Гель-покрытие под кутикулу с идеальными бликами</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы отработаете две техники, чтобы добиться идеального покрытия и зеркального блика
                                 </li>
                             </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Дополнительно вы освоите:</p>
-
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Формы ногтей: от овала до миндаля</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Гель-покрытие «под кутикулу» с зеркальным
-                                    бликом
-                                    (2 техники)
+                                <li>Пошаговая техника правильного опила и подбора формы под руку клиента</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Работа с фрезами без пропилов</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь работать быстро, уверенно и без риска травм</li>
+                                <li></li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Архитектура ногтей и реставрация</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Построение чёткой формы, восстановление углов, создание идеального квадрата, ровного
+                                    френча и ремонт сломанных ногтей
                                 </li>
-                                <li>Правильный опил форм: овал, квадрат, мягкий
-                                    квадрат, миндаль
+                                <li></li>
+                            </ul>
+                        </div>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Экспресс-дизайны, которые продаются</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы узнаете, как быстро и просто делать трендовые
+                                    дизайны:
                                 </li>
-                                <li>Работа с фрезами без пропилов — безопасно и
-                                    уверенно
-                                </li>
-                                <li>Архитектура ногтя: чёткий квадрат,
-                                    восстановление
-                                    формы, френч
-                                </li>
-                                <li>Ремонт и реставрация сломанного ногтя</li>
-                                <li>Быстрые и модные дизайны: френч, стразы,
-                                    слайдеры,
-                                    пигменты, втирка, поталь, кошачий глаз, фольга, сухоцветы
-                                </li>
-                                <li>SPA-уход для рук и ногтей</li>
-                                <li>Правила фотосъёмки для Instagram и портфолио
-                                    (даже
-                                    на телефон)
+                                <li>Френч • Стемпинг • Пигменты • Стразы • Слайдеры • Кошачий глаз • Фольга • Поталь •
+                                    Сухоцветы • Втирка
                                 </li>
                             </ul>
-
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Блок 2: Эстетический педикюр:
-
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Эстетический педикюр с аппаратной обработкой
-                                стоп
-                                (на дисках)
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Комбинированная техника обработки пальчиков:
-                                фреза
-                                +
-                                щипчики
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Опил формы ногтей при педикюре.
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">SPA-уход для рук и ногтей</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Дополнительная услуга в прайсе, повышающая чек и лояльность клиента</li>
+                            </ul>
                         </div>
 
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Блок 3: Салонное моделирование ногтей
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Моделирование на верхние формы — без перегрузки
-                                и
-                                излишнего опила
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Френч-отрисовка — чёткий стильный результат
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Тонкие и прочные ногти — правильная архитектура
-                                и
-                                материалы
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">3 практики моделирования — на моделях
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Мобильная фотосъёмка ваших работ</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь снимать свои работы красиво — даже на телефон</li>
+                            </ul>
                         </div>
 
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">После курса вы:
-                                Соберёте портфолио
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Получите сертификат
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Сможете начать зарабатывать сразу
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Получите поддержку тренера и школы
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">При желании — выйдете на трудоустройство
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Педикюр — эстетика + безопасность:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Эстетический педикюр с аппаратной обработкой стоп (на дисках)</li>
+                                <li>Комбинированная техника обработки пальчиков: фреза + щипчики</li>
+                                <li>Опил формы ногтей при педикюре</li>
+                            </ul>
                         </div>
 
-
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Салонное моделирование ногтей</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Моделирование на верхние формы — без перегрузки и излишнего опила</li>
+                                <li>Френч-отрисовка — чёткий стильный результат</li>
+                                <li>Тонкие и прочные ногти — правильная архитектура и материалы</li>
+                                <li>3 практики моделирования — на моделях</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">И главное:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Реальная практика на моделях</li>
+                                <li>Поддержка тренера и разбор ошибок</li>
+                                <li>Все материалы и инструменты включены</li>
+                                <li>После курса — возможность трудоустройства и постоянная обратная связь</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
@@ -1237,12 +1269,11 @@
             </div>
         </div>
     </div>
-    <!-- повышающий курс "Японский маникюр, экоглянцевание"                    DONE -->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">повышающий
-                    курс "Японский маникюр, экоглянцевание"
+                    курс "Японский маникюр, эко глянцевание"
                 </h2>
                 <p class="mt-4 text-center text-gray-500">Для действующих мастеров, которые хотят выйти на новый уровень
                 </p>
@@ -1257,68 +1288,61 @@
                         </div>
                     </li>
                     <li class="right-dl">
-                        <div class="pt-4">
-                            <p class="font-medium text-gray-900">
-                                Этот курс — идеальное решение, если вы уже работаете в сфере ногтевого сервиса и хотите:
-                            </p>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Этот курс — идеальное решение, если вы уже работаете в сфере ногтевого сервиса и хотите:</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>расширить список услуг
-                                </li>
-                                <li>освоить премиальную технику для клиентов, которые не носят гель
-                                </li>
-                                <li>научиться работать быстро, чисто и безопасно
-                                </li>
+                                <li>расширить список услуг</li>
+                                <li>освоить премиальную технику для клиентов, которые не носят гель</li>
+                                <li>научиться работать быстро, чисто и безопасно</li>
                             </ul>
                         </div>
-
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Что вы освоите на курсе:
-
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500"><span class="font-medium text-gray-900">
-                                    Аппаратный маникюр по-мокрому</span> <br>
-                                Деликатная техника, подходящая даже для чувствительной кожи. Повышенная безопасность,
-                                минимальный риск травматизации.
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500"><span class="font-medium text-gray-900">⚡
-                                    Комбинированный маникюр одной фрезой</span><br>
-                                Узнаете, как выполнять чистую обработку одной фрезой + ножнички/щипчики. Ускорение времени
-                                работы до 30%.
-
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500"><span class="font-medium text-gray-900">
-                                    Японский
-                                    маникюр (экоглянцевание) </span><br>
-                                Натуральная техника ухода — без покрытия.
-                                Подходит для беременных, аллергиков и поклонников естественного образа.
-                                Освоите поэтапную процедуру восстановления, шлифовки и полировки ногтевой пластины с
-                                применением паст и пудр на основе природных компонентов.
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900"></p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Аппаратный маникюр по-мокрому</li>
+                                <li>Деликатная техника, подходящая даже для чувствительной кожи. Повышенная безопасность,
+                                    минимальный риск травматизации</li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Формат:
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Только практика
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Индивидуальный подход
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Все материалы включены
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Диплом повышения квалификации
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900"></p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li> Комбинированный маникюр одной фрезой</li>
+                                <li>Узнаете, как выполнять чистую обработку одной фрезой + ножнички/щипчики. Ускорение времени
+                                    работы до 30%</li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">После курса вы:
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Вы сможете предлагать премиальные услуги в
-                                прайсе
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Привлечёте новую аудиторию — включая клиентов,
-                                отказавшихся от геля
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Получите уверенность и отточенную технику
-                            </span>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Японский
+                                маникюр (эко глянцевание) </p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Натуральная техника ухода — без покрытия</li>
+                                <li>Подходит для беременных, аллергиков и поклонников естественного образа</li>
+                                <li>Освоите поэтапную процедуру восстановления, шлифовки и полировки ногтевой пластины с
+                                    применением паст и пудр на основе природных компонентов</li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Формат:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Только практика</li>
+                                <li>Индивидуальный подход</li>
+                                <li>Все материалы включены</li>
+                                <li>Диплом повышения квалификации</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">После курса вы:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Вы сможете предлагать премиальные услуги в
+                                    прайсе</li>
+                                <li>Привлечёте новую аудиторию — включая клиентов,
+                                    отказавшихся от геля</li>
+                                <li>Получите уверенность и отточенную технику</li>
+                            </ul>
                         </div>
                     </li>
                 </ul>
@@ -1522,7 +1546,6 @@
             </div>
         </div>
     </div>
-    <!-- курс эстетического педикюра в аппаратной технике                      DONE-->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
@@ -1543,71 +1566,71 @@
                         </div>
                     </li>
                     <li class="right-dl">
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Санитарные нормы и стерилизация
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Как обеспечить полную безопасность для клиента
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Все этапы дезинфекции и стерилизации инструмента
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Работа с одноразовыми материалами
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Правильная форма ногтей
-                                Опил с учётом анатомии </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Как создавать эстетичную и стойкую форму
-                            </span>
 
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Санитарные нормы и стерилизация</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Как обеспечить полную безопасность для клиента</li>
+                                <li>Все этапы дезинфекции и стерилизации инструмента</li>
+                                <li>Работа с одноразовыми материалами</li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">Аппаратная обработка стоп
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Шлифовка стоп и пяток дисками разной
-                                абразивности
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Безопасная техника без риска ожогов и порезов
-                            </span>
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Правильная форма ногтей</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Опил с учётом анатомии</li>
+                                <li>Как создавать эстетичную и стойкую форму</li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Аппаратная обработка стоп</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Шлифовка стоп и пяток дисками разной
+                                    абразивности</li>
+                                <li>Безопасная техника без риска ожогов и порезов</li>
+                            </ul>
+                        </div>
+                        <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Комбинированная техника для пальчиков
-                                Совмещение фрезы и щипчиков
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Чистая обработка кутикулы и боковых валиков
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Минимум травматизации — максимум эстетики
-                            </span>
+                                Совмещение фрезы и щипчиков</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Чистая обработка кутикулы и боковых валиков</li>
+                                <li>Минимум травматизации — максимум эстетики</li>
+                            </ul>
                         </div>
-                        <div class="pt-4 border-t border-gray-200">
+                        <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Покрытие гель-лаком
-                                Техника «под кутикулу» </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Работа с плотными пигментами и нюдовыми
-                                оттенками
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900"> Дополнительно:
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500"> Рекомендации по фотографированию ваших работ
-                            </span>
-                        </div>
-                        <div class="pt-4 border-t border-gray-200">
-                            <p class="font-medium text-gray-900">В результате:
-                            </p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">У вас будет чёткая техника + понимание
-                                анатомии
-                                стоп
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Научитесь работать быстро и безопасно
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Расширите перечень услуг и поднимете средний
-                                чек
-                            </span>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Получите сертификат и поддержку
-                                тренера после курса
-                            </span>
+                                Техника «под кутикулу»</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Работа с плотными пигментами и нюдовыми
+                                    оттенками</li>
+                            </ul>
                         </div>
 
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">Мобильная фотосъёмка ваших работ</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Научитесь снимать свои работы красиво — даже на телефон</li>
+                            </ul>
+                        </div>
+
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900">В результате:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>У вас будет чёткая техника + понимание
+                                    анатомии
+                                    стоп</li>
+                                <li>Научитесь работать быстро и безопасно</li>
+                                <li>Расширите перечень услуг и поднимете средний
+                                    чек</li>
+                                <li>Получите сертификат и поддержку
+                                    тренера после курса</li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
                 <div class="grid grid-cols-1 div lg:grid-cols-2 ">
@@ -1693,7 +1716,6 @@
             </div>
         </div>
     </div>
-    <!-- повышающий курс аппаратного и комбинированного маникюра. Архитектура  DONE-->
     <div class="p-4 bg-white">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
@@ -1717,70 +1739,67 @@
                         </div>
                     </li>
                     <li class="right-dl">
+
+
                         <div class="pt-4 border-gray-200">
-                            <p class="font-medium text-gray-900">Безопасность и гигиена Актуальные санитарные нормы
-                            </p>
+                            <p class="font-medium text-gray-900">Санитарные нормы и стерилизация</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Стерилизация и дезинфекция инструментов
-                                </li>
-                                <li>Организация рабочего места мастера
-                                </li>
+                                <li>Как обеспечить полную безопасность для клиента</li>
+                                <li>Все этапы дезинфекции и стерилизации инструмента</li>
+                                <li>Работа с одноразовыми материалами</li>
                             </ul>
                         </div>
+
+
                         <div class="pt-4 border-gray-200">
-                            <p class="font-medium text-gray-900">✍ Правильный опил формы
+                            <p class="font-medium text-gray-900">Правильный опил формы
                                 Овальная, мягкий квадрат, четкий квадрат, миндаль</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Как избежать ошибок в симметрии и длине
-                                </li>
+                                <li>Как избежать ошибок в симметрии и длине</li>
+                            </ul>
+                        </div>
 
+
+                        <div class="pt-4 border-gray-200">
+                            <p class="font-medium text-gray-900"></p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>Аппаратный маникюр по-мокрому</li>
+                                <li>Деликатная техника, подходящая даже для чувствительной кожи. Повышенная безопасность,
+                                    минимальный риск травматизации</li>
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
-                            <p class="font-medium text-gray-900">Аппаратный маникюр по-мокрому
-                            </p>
+                            <p class="font-medium text-gray-900"></p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Техника безопасной и деликатной обработки
-                                </li>
+                                <li> Комбинированный маникюр одной фрезой</li>
+                                <li>Узнаете, как выполнять чистую обработку одной фрезой + ножнички/щипчики. Ускорение времени
+                                    работы до 30%</li>
                             </ul>
                         </div>
-                        <div class="pt-4 border-gray-200">
-                            <p class="font-medium text-gray-900">⚡ Комбинированный маникюр
-                            </p>
-                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Быстрая техника «одна фреза + ножнички»
-                                </li>
-                                <li>Уменьшение времени работы без потери качества
-                                </li>
-                            </ul>
-                        </div>
+
+
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Архитектура ногтей
                                 Восстановление углов</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Создание чёткой формы — особенно квадрата
-                                </li>
-                                <li>Реставрация и коррекция формы
-                                </li>
+                                <li>Создание чёткой формы — особенно квадрата</li>
+                                <li>Реставрация и коррекция формы</li>
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Выравнивание ногтевой пластины
                                 Идеальные блики с минимальным количеством материала</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
-                                <li>Экспресс-выравнивание без переворота
-                                </li>
-                                <li>Выравнивание топом — когда и как применять
-                                </li>
+                                <li>Экспресс-выравнивание без переворота</li>
+                                <li>Выравнивание топом — когда и как применять</li>
                             </ul>
                         </div>
+
                         <div class="pt-4 border-gray-200">
-                            <p class="font-medium text-gray-900">Покрытие под кутикулу
-                            </p>
+                            <p class="font-medium text-gray-900">Покрытие под кутикулу</p>
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Две техники с идеальным бликом</li>
-                                <li>Как избежать затеков и «отслоек»
-                                </li>
+                                <li>Как избежать затеков и «отслоек»</li>
                             </ul>
                         </div>
                         <div class="pt-4 border-gray-200">
@@ -1789,7 +1808,7 @@
                             <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
                                 <li>Быстрый классический френч
                                 </li>
-                                <li>Стемпинг: техника и особенности нанесения
+                                <li>Стем пинг: техника и особенности нанесения
                                 </li>
                             </ul>
                         </div>
@@ -2082,5 +2101,6 @@
 
     @include('partials.reviews', ['video' => 'false', 'content' => 'manicure'])
     @include('partials.team', ['title' => 'Тренер Курса', 'persons' => ['olya', 'veronika', 'vika']])
+    @include('partials.portfolio-manicure')
 
 @endsection

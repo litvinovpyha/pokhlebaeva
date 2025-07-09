@@ -127,11 +127,16 @@
                         </div>
                     </li>
                     <li class="right-li">
-                        <div class="pt-4 border-t border-gray-200">
+
+                        <div class="pt-4 border-gray-200">
                             <p class="font-medium text-gray-900">Геометрия стрижек</p>
-                            <span class="pb-2 mt-2 text-sm text-gray-500">Фундаментальные техники стрижек
-                                по английской классике : круг, треугольник, квадрат + комбинации
-                            </span>
+                            <p class="font-medium text-gray-900">Фундаментальные техники стрижек по английской классике:</p>
+                            <ul class="pt-4 pl-5 text-sm text-gray-500 list-disc">
+                                <li>круг</li>
+                                <li>треугольник</li>
+                                <li>квадрат</li>
+                                <li>комбинации</li>
+                            </ul>
                         </div>
 
                         <div class="pt-4 border-t border-gray-200">
@@ -1920,5 +1925,5 @@
         </div>
     </div>
     </div>
-
+@include('partials.portfolio-hair')
 @endsection
