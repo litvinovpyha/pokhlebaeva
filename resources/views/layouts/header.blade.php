@@ -290,6 +290,14 @@
                                 </a>
                             </div>
                         </div>
+                        @if (Auth::user()->role == 'seo')
+                            <div class="flex-auto">
+                                <a href="{{ route('seo') }}" class="block font-semibold text-gray-900">
+                                    GTM
+                                    <span class="absolute inset-0"></span>
+                                </a>
+                            </div>
+                        @endif
                     </div>
                 </div>
             @else

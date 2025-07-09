@@ -67,6 +67,6 @@ Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
     Route::delete('/lesson-contents/{content}', [LessonContentController::class, 'destroy'])->name('lesson-contents.destroy');
 });
 Route::middleware([IsSeo::class])->prefix('console')->group(function () {
-    Route::get('/', [SeoController::class, 'show'])->name('seo');
+    Route::get('/seo', [SeoController::class, 'show'])->name('seo');
     Route::post('/save-gtm', [SeoController::class, 'saveGtm'])->name('seo.save.gtm');
 });
