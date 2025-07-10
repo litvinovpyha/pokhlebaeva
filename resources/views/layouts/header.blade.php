@@ -63,7 +63,7 @@
                     <div id="userDropdown"
                          class="absolute z-50 hidden w-screen max-w-md mt-5 overflow-y-auto bg-white shadow-lg top-7 -right-3 lg:-right-8">
                         <div role="menu">
-                            @if (Auth::user()->role == 'seo')
+                            @if (Auth::user()->role == 'admin')
                                 <div
                                     class="relative flex items-center p-4 rounded-lg group gap-x-6 text-sm/6 hover:bg-gray-50">
                                     <div
@@ -75,45 +75,10 @@
                                              class="text-gray-600 size-6 group-hover:text-indigo-600 lucide lucide-log-out">
                                             <path stroke-linecap="round" stroke-linejoin="round"
                                                   d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"/>
-                                        </svg>
-                                    </div>
-                                    <div class="flex-auto">
-                                        <a href="{{ route('seo') }}" class="block font-semibold text-gray-900">
-                                            GTM
-                                            <span class="absolute inset-0"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div
-                                    class="relative flex items-center p-4 rounded-lg group gap-x-6 text-sm/6 hover:bg-gray-50">
-                                    <div
-                                        class="flex items-center justify-center flex-none rounded-lg size-11 bg-gray-50 group-hover:bg-white">
 
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                             stroke-width="1.5" stroke="currentColor"
-                                             class="text-gray-600 size-6 group-hover:text-indigo-600 lucide lucide-log-out">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                  d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 0 1 9 9v.375M10.125 2.25A3.375 3.375 0 0 1 13.5 5.625v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 0 1 3.375 3.375M9 15l2.25 2.25L15 12"/>
                                         </svg>
 
 
-                                    </div>
-                            @endif
-
-                        @if (Auth::user()->role == 'admin')
-                                <div
-                                    class="relative flex items-center p-4 rounded-lg group gap-x-6 text-sm/6 hover:bg-gray-50">
-                                    <div
-                                        class="flex items-center justify-center flex-none rounded-lg size-11 bg-gray-50 group-hover:bg-white">
-
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                             stroke-width="1.5" stroke="currentColor"
-                                             class="text-gray-600 size-6 group-hover:text-indigo-600 lucide lucide-log-out">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                  d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"/>
-                                        </svg>
                                     </div>
                                     <div class="flex-auto">
                                         <a href="{{ route('console') }}" class="block font-semibold text-gray-900">
@@ -297,7 +262,29 @@
                                     </span>
                                 </button>
                             </form>
+                                @if (Auth::user()->role == 'seo')
+                                    <div
+                                        class="relative flex items-center p-4 rounded-lg group gap-x-6 text-sm/6 hover:bg-gray-50">
+                                        <div
+                                            class="flex items-center justify-center flex-none rounded-lg size-11 bg-gray-50 group-hover:bg-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                                 stroke-width="1.5" stroke="currentColor"
+                                                 class="text-gray-600 size-6 group-hover:text-indigo-600 lucide lucide-log-out">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z"/>
 
+                                            </svg>
+
+                                        </div>
+                                        <div class="flex-auto">
+                                            <a href="{{ route('seo') }}"
+                                               class="block font-semibold text-gray-900">
+                                                GTM
+                                                <span class="absolute inset-0"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                @endif
                             <div class="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                                 <a href="https://www.instagram.com/pokhlebaeva.pro/?igshid=174ro53kwcgg1"
                                    class="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100">
