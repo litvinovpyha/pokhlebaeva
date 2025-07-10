@@ -18,7 +18,7 @@
     @yield('jsonld')
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireStyles
-    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
     <link rel="canonical" href="{{ url()->current() }}"/>
     {!! \App\Models\Setting::where('key', 'gtm_code')->first()?->value !!}
 

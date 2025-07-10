@@ -25,10 +25,6 @@
                              class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('images/atmosphere/index/atm6.webp') }}" alt="атмосфера"
-                             class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
-                    </div>
-                    <div class="swiper-slide">
                         <img src="{{ asset('images/atmosphere/index/atm7.webp') }}" alt="атмосфера"
                              class="w-full rounded-xl shadow-lg object-cover sm:h-[28rem] max-h-[32rem] mx-auto" />
                     </div>
