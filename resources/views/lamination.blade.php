@@ -69,7 +69,7 @@
         subtitle="И БЫТЬ НА ШАГ ВПЕРЕДИ КОНКУРЕНТОВ"
     />
 
-    <div class="p-4 bg-white">
+    <div class="p-4 bg-white border-t border-gray-200">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">онлайн Курс

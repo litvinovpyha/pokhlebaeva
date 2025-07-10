@@ -169,7 +169,7 @@
 
             </div>
             <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="{{ asset('images/manicure/combi-manicure.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/manicure/combi-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/japan-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-couse.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-pedicure-modeling.webp') }}" alt=""
@@ -265,7 +265,7 @@
 
             </div>
             <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="{{ asset('images/manicure/combi-manicure.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/manicure/combi-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/japan-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-couse.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-pedicure-modeling.webp') }}" alt=""
@@ -371,12 +371,12 @@
 
             </div>
             <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="{{ asset('images/hairstylist/kursi-parikmaherov.webp') }}" alt="" class="bg-gray-100 rounded-lg">
-                <img src="{{ asset('images/hairstylist/hairstylist-colorist.webp') }}" alt=""
+                <img src="{{ asset('images/hairstylist/Kommercheskıe-strıjkı.webp') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/hairstylist/kommercheskie-ukladki.webp') }}" alt=""
                      class="bg-gray-100 rounded-lg">
-                <img src="{{ asset('images/hairstylist/hairstylist-ukladki.jpeg') }}" alt=""
+                <img src="{{ asset('images/hairstylist/kursi-parikmaherov.webp') }}" alt=""
                      class="bg-gray-100 rounded-lg">
-                <img src="{{ asset('images/hairstylist/hairstylist-commercian.jpeg') }}" alt=""
+                <img src="{{ asset('images/hairstylist/permanentnaya-zavivka-i-spa-uhody.webp') }}" alt=""
                      class="bg-gray-100 rounded-lg">
             </div>
         </div>
@@ -480,7 +480,7 @@
 
             </div>
             <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="{{ asset('images/manicure/combi-manicure.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/manicure/combi-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/japan-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-couse.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-pedicure-modeling.webp') }}" alt=""
@@ -586,10 +586,10 @@
 
             </div>
             <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="{{ asset('images/lamination/brow-lami.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/lamination/brow-lami.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/lamination/eyebrowlamination.webp')}}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/lamination/eyelashlamination.webp')}}" alt="" class="bg-gray-100 rounded-lg">
-                <img src="{{ asset('images/lamination/brow-lami.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/lamination/brow-lami.webp') }}" alt="" class="bg-gray-100 rounded-lg">
             </div>
         </div>
     </div>
@@ -691,10 +691,10 @@
                 </div>
             </div>
             <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="{{ asset('images/lamination/brow-lami.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/lamination/brow-lami.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/lamination/eyebrowlamination.webp')}}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/lamination/eyelashlamination.webp')}}" alt="" class="bg-gray-100 rounded-lg">
-                <img src="{{ asset('images/lamination/brow-lami.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/lamination/brow-lami.webp') }}" alt="" class="bg-gray-100 rounded-lg">
             </div>
         </div>
     </div>
@@ -799,7 +799,7 @@
 
             </div>
             <div class="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
-                <img src="{{ asset('images/manicure/combi-manicure.jpeg') }}" alt="" class="bg-gray-100 rounded-lg">
+                <img src="{{ asset('images/manicure/combi-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/japan-manicure.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-couse.webp') }}" alt="" class="bg-gray-100 rounded-lg">
                 <img src="{{ asset('images/manicure/manicure-pedicure-modeling.webp') }}" alt=""

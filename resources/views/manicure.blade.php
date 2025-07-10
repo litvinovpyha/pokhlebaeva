@@ -130,7 +130,7 @@
     />
 
     @include('partials.guarantee', ['showFirstVideo' => false])
-    <div class="p-4 bg-white">
+    <div class="p-4 bg-white border-t border-gray-200">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">Базовый
@@ -139,7 +139,7 @@
                 </h2>
                 <p class="mt-4 text-center text-gray-500">Программа курса включает:</p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -316,7 +316,7 @@
                     "идеальный комбинированный+ аппаратный"</h2>
                 <p class="mt-4 text-center text-gray-500">Программа курса включает:</p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -495,7 +495,7 @@
                     Базовый курс маникюра и педикюра</h2>
                 <p class="mt-4 text-center text-gray-500">Программа курса включает:</p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -696,7 +696,7 @@
                     техник, которые вы сможете использовать в работе сразу после окончания курса:
                 </p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -901,7 +901,7 @@
                     курс.
                     Вы получите сильную базу, узнаете все современные техники и выйдете с готовым портфолио.</p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -1262,7 +1262,7 @@
                 <p class="mt-4 text-center text-gray-500">Для действующих мастеров, которые хотят выйти на новый уровень
                 </p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -1541,7 +1541,7 @@
                     комфорт и идеальный результат
                 </p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -1713,7 +1713,7 @@
                     этот
                     курс поможет закрыть все «белые пятна» и выйти на новый профессиональный уровень.</p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -1920,7 +1920,7 @@
                 <p class="mt-4 text-center text-gray-500">Для практикующих мастеров, готовых выйти на новый уровень!
                 </p>
 
-                <ul class="grid items-center grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
+                <ul class="grid grid-cols-1 mt-3 lg:grid-cols-2 gap-x-6 gap-y-3 lg:gap-x-8 ">
                     <li class="left-dl">
                         <div class="pt-4">
                             <span class="flex justify-center mt-2 text-sm text-gray-500"><img
@@ -2084,7 +2084,8 @@
 
 
     @include('partials.reviews', ['video' => 'false', 'content' => 'manicure'])
+        @include('partials.portfolio-manicure')
+
     @include('partials.team', ['title' => 'Тренер Курса', 'persons' => ['olya', 'veronika', 'vika']])
-    @include('partials.portfolio-manicure')
 
 @endsection

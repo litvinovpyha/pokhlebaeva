@@ -104,7 +104,7 @@
     />
     @include('partials.guarantee', ['showSecondVideo' => false])
     <!-- КУРС "Парикмахер-колорист" -->
-    <div class="p-4 bg-white">
+    <div class="p-4 bg-white border-t border-gray-200">
         <div class="grid items-center max-w-2xl mx-auto gap-x-8 gap-y-16 lg:max-w-7xl">
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-center text-gray-900 uppercase sm:text-4xl">КУРС
@@ -1855,6 +1855,8 @@
     @include('partials.coursesingup', ['title' => 'Почему вам стоит записаться на курс парикмахера в школе indigo:',
 'count' => '8',])
     @include('partials.reviews', ['video' => 'true', 'content' => 'hairstylist'])
+    @include('partials.portfolio-hair')
+
     @include('partials.team', ['title' => 'Тренер Курса', 'persons' => ['karina', 'veronika', 'vika']])
     <div class="relative p-4 overflow-hidden bg-white">
         <div class="relative mx-auto max-w-7xl">
@@ -1925,5 +1927,4 @@
         </div>
     </div>
     </div>
-@include('partials.portfolio-hair')
 @endsection

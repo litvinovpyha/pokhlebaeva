@@ -506,12 +506,13 @@
     @include('partials.reviews', ['video' => 'false', 'content' => 'index'])
     @include('partials.coursesingup', ['title' => 'Почему вам стоит записаться в школу красоты indigo:',
 'count' => '8',])
+    @include('partials.atmosphere')
+
     @include('partials.fivesection')
     @include('partials.team', [
         'title' => 'Наша команда',
         'persons' => ['veronika', 'karina', 'olya', 'vika'],
     ])
-    @include('partials.atmosphere')
     <div class="p-4 bg-gray-100">
         <h3 class="mb-2 text-4xl font-semibold tracking-tight text-center text-gray-900 uppercase sm:text-5xl">
             УЗНАТЬ ПОДРОБНЕЕ О КУРСАХ </h3>
