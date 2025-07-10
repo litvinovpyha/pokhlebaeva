@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <div class="h-screen bg-white shadow p-6 space-y-6">
+    <div class="bg-white shadow p-6 space-y-6">
         <div class="bg-white  border border-gray-200 rounded-lg shadow-none">
             <div class="p-6">
                 <h2 class="text-2xl font-semibold text-gray-900  mb-4">Создать курс</h2>
@@ -48,7 +48,7 @@
                                     <p class="text-black-500 text-sm mt-2">{{ $message }}</p>
                                 </div>
                             @enderror
-                        </div>  
+                        </div>
                         <!-- Кнопка отправки формы -->
                         <div class="mt-4">
                             <button type="submit"

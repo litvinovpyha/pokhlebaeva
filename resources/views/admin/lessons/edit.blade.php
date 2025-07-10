@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <div class="py-32 h-screen bg-white dark:bg-gray-800 shadow p-6 space-y-6 overflow-y-auto">
+    <div class="py-32 bg-white dark:bg-gray-800 shadow p-6 space-y-6 overflow-y-auto">
         <div class="bg-white dark:bg-white border border-gray-200 rounded-lg shadow-none">
             <div class="p-6">
                 <h2 class="text-2xl font-semibold text-gray-900 dark:text-black mb-4">Редактировать урок:</h2>
@@ -20,7 +20,7 @@
                             @enderror
                         </div>
                         <div id="contents" class="space-y-4">
-                        
+
                         </div>
                         <div class="flex flex-wrap gap-2">
                             <button type="button" onclick="addContent('text')"

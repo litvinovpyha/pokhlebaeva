@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <div class="h-screen bg-white shadow p-6 space-y-6 overflow-y-auto">
+    <div class=" bg-white shadow p-6 space-y-6 overflow-y-auto">
         <div class="bg-white dborder border-gray-200 rounded-lg shadow-none">
             <div class="p-6">
                 <h2 class="text-2xl font-semibold text-gray-900 mb-4">Создать урок</h2>

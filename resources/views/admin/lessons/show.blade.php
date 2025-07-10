@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('content')
-    <div class=" py-32 h-screen bg-gray-100 dark:bg-gray-900 shadow-lg p-8 space-y-8">
+    <div class=" py-32 bg-gray-100 dark:bg-gray-900 shadow-lg p-8 space-y-8">
         <div class="bg-white dark:bg-gray-800 shadow rounded-lg p-6 space-y-4">
             <p class="text-gray-700 dark:text-gray-300"><strong>ID:</strong> {{ $lesson->id }}</p>
             <p class="text-gray-700 dark:text-gray-300"><strong>Название урока:</strong> {{ $lesson->title }}</p>
