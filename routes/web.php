@@ -56,6 +56,19 @@ Route::get('/otzyvi-parikmaherov', function () {
     return redirect()->route('courses.hairstylist', [], 301);
 });
 
+Route::get('/parikmaher', function () {
+    return redirect()->route('courses.hairstylist', [], 301);
+});
+
+Route::get('/onlayn-manikyur', function () {
+    return redirect()->route('courses.manicure', [], 301);
+});
+Route::get('/kursy/parikmaher', function () {
+    return redirect()->route('courses.hairstylist', [], 301);
+});
+
+
+
 Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
 //    Route::get('/', [ConsoleController::class, 'store'])->name('callback.store');
     Route::get('/', [ConsoleController::class, 'show'])->name('console');
