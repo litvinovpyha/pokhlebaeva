@@ -1,5 +1,7 @@
 # Composer & Laravel
 /vendor/                 # Composer зависимости
+vendor/
+
 node_modules/           # npm/yarn зависимости
 /node_modules/
 
