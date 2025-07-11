@@ -1,39 +1,49 @@
-/vendor/
-node_modules/
+# Composer & Laravel
+/vendor/                 # Composer зависимости
+node_modules/           # npm/yarn зависимости
+/node_modules/
+
+# Debug & Lock files
 npm-debug.log
 yarn-error.log
-/tests
-/storage/logs/*
-.env.local
-.git
-.gitignore
-*.log
-.idea/laravel-idea.xml
-vite.config.js
-package-lock.json
-package.json
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+*.log                    # Все .log файлы
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+# Tests
+/tests                   # Если не используешь тесты — ок
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
+# Laravel runtime
+/storage/logs/*          # Логи Laravel
+storage/*.key            # Ключи, например laravel.log.key
+public/storage           # symlink — обычно игнорируем
 
-storage/*.key
+# Laravel .env файлы
 .env
+.env.local               # Доп. локальные переменные
+
+# IDE & OS
+.idea                    # JetBrains PhpStorm/WebStorm
+
+# Frontend build
+/public/hot              # Vite HMR флаг
+/public/build            # Vite билд, если билдить на сервере
+/public_html/hot         # Если public_html — кастомный паблик
+/public_html/storage     # Тоже кастомный паблик
+
+# Сертификаты, Vagrant, Homestead
+localhost*.pem           # Локальные сертификаты
 Homestead.yaml
 Homestead.json
 /.vagrant
+
+# PHPUnit
 .phpunit.result.cache
 
-# Couses specific
+# Скрипты, SQL дампы — по ситуации
 insert_users_courses.sql
-
-# Windows specific
 serve.bat
 migrate.bat
+
+# Лишнее — эти обычно хранятся:
+#vite.config.js
+#package.json
+#package-lock.json
