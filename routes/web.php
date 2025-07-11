@@ -40,34 +40,13 @@ Route::middleware([
     Route::get('/mycourses', [MyCoursesController::class, 'index'])->name('mycourses.index');
     Route::get('/mycourses/{id}', [MyCoursesController::class, 'show'])->name('mycourses.show');
     Route::get('/mycourses/{id}/{lesson_id}', [MyLessonController::class, 'show'])->name('lesson.show');
+    Route::post('/mycourses/{id}/{lesson_id}/complete', [MyLessonController::class, 'complete'])->name('lesson.complete');
 });
+
+
 Route::get('/log-in', function () {
     return redirect()->route('login', [], 301);
 });
-
-Route::get('/hairstylist', function () {
-    return redirect()->route('courses.hairstylist', [], 301);
-});
-
-Route::get('/manicure', function () {
-    return redirect()->route('courses.manicure', [], 301);
-});
-Route::get('/otzyvi-parikmaherov', function () {
-    return redirect()->route('courses.hairstylist', [], 301);
-});
-
-Route::get('/parikmaher', function () {
-    return redirect()->route('courses.hairstylist', [], 301);
-});
-
-Route::get('/onlayn-manikyur', function () {
-    return redirect()->route('courses.manicure', [], 301);
-});
-Route::get('/kursy/parikmaher', function () {
-    return redirect()->route('courses.hairstylist', [], 301);
-});
-
-
 
 Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
 //    Route::get('/', [ConsoleController::class, 'store'])->name('callback.store');
@@ -79,6 +58,8 @@ Route::middleware([IsAdmin::class])->prefix('console')->group(function () {
     Route::delete('/admin/users/{user}/revoke-course/{course}', [UserController::class, 'revokeCourse'])->name('user.revokeCourse');
     Route::delete('/lesson-contents/{content}', [LessonContentController::class, 'destroy'])->name('lesson-contents.destroy');
 });
+
+
 Route::middleware([IsSeo::class])->prefix('console')->group(function () {
     Route::get('/seo', [SeoController::class, 'show'])->name('seo');
     Route::post('/save-gtm', [SeoController::class, 'saveGtm'])->name('seo.save.gtm');

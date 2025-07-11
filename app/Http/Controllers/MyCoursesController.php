@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Course;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Support\Facades\Auth;
-
+use Illuminate\Support\Facades\DB;
 class MyCoursesController extends Controller
 {
     public function index()
@@ -25,8 +24,13 @@ class MyCoursesController extends Controller
 
     public function show($courseId): View
     {
+        $completedLessons = DB::table('lesson_user')
+            ->where('user_id', auth()->id())
+            ->pluck('lesson_id')
+            ->toArray();
+
         $course = Course::findOrFail($courseId);
-        return view('mycourses.show', compact('course'));
+        return view('mycourses.show', compact('course','completedLessons'));
     }
 
 

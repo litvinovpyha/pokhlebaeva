@@ -43,6 +43,31 @@
                 @endswitch
             @endforeach
         </div>
+        @if($previousLesson || $nextLesson)
+            <div class="grid grid-cols-3 gap-3">
+                @if($previousLesson)
+                    <a href="{{ route('lesson.show', ['id' => $course->id, 'lesson_id' => $previousLesson->id]) }}"
+                       class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 text-center rounded">
+                        ←
+                    </a>
+                @endif
+
+
+                    <form method="POST" action="{{ route('lesson.complete', [$course->id, $lesson->id]) }}">
+                        @csrf
+                        <button type="submit" class="bg-gray-300 hover:bg-red-400 text-white font-bold py-2 text-center  rounded">Выполнено</button>
+                    </form>
+                @if($nextLesson)
+                    <a href="{{ route('lesson.show', ['id' => $course->id, 'lesson_id' => $nextLesson->id]) }}"
+                       class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 text-center  rounded">
+                        →
+                    </a>
+                @endif
+            </div>
+        @endif
+
+
     </div>
 </div>
 @endsection
+
