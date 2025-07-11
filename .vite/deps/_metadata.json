@@ -1,0 +1,27 @@
+{
+  "hash": "38d3b68a",
+  "configHash": "d2b2057f",
+  "lockfileHash": "83c093fc",
+  "browserHash": "3c3005df",
+  "optimized": {
+    "swiper": {
+      "src": "../../node_modules/swiper/swiper.mjs",
+      "file": "swiper.js",
+      "fileHash": "5e331704",
+      "needsInterop": false
+    },
+    "imask": {
+      "src": "../../node_modules/imask/esm/index.js",
+      "file": "imask.js",
+      "fileHash": "c5dfe274",
+      "needsInterop": false
+    },
+    "alpinejs": {
+      "src": "../../node_modules/alpinejs/dist/module.esm.js",
+      "file": "alpinejs.js",
+      "fileHash": "9f5a1984",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

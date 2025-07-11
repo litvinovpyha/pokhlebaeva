@@ -1,6 +1,10 @@
 {
+  "public/fonts/roboto/Roboto-Regular.ttf": {
+    "file": "assets/Roboto-Regular-CN_pkOMA.ttf",
+    "src": "public/fonts/roboto/Roboto-Regular.ttf"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-BeYixiXC.css",
+    "file": "assets/app-D10CD9jZ.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
